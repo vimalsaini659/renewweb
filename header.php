@@ -277,11 +277,11 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Student I
+                                        <a href="student-i-card.php" class="nav-link">Student I
                                             Card</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Admit
+                                        <a href="admitCard.php" class="nav-link">Admit
                                             Card</a>
                                     </li>
                                     <li class="nav-item">
