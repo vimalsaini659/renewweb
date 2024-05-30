@@ -338,10 +338,10 @@
     <div class="page-banner-area bg-2">
         <div class="container">
             <div class="page-banner-content">
-                <h1>Login</h1>
+                <h1>Student ID card</h1>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Login</li>
+                    <li><a href="index.php">Home</a></li>
+                    <li>Student ID card</li>
                 </ul>
             </div>
         </div>
@@ -354,19 +354,15 @@
                 <h3>Student  ID card</h3>
                 <form>
                     <div class="form-group">
-                        <input type="email" id="email" class="form-control" placeholder="Username Or Email Address*">
+                        <input type="text" id="name" class="form-control" placeholder="Username">
                     </div>
                     <div class="form-group">
-                        <input type="password" id="password" class="form-control" placeholder="Password*">
+                        <input type="email" id="email" class="form-control" placeholder="Email Address*">
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Remember Me
-                        </label>
+                    <div class="form-group">
+                        <input type="date" id="dob" class="form-control" placeholder="Date of Birth*">
                     </div>
-                    <button type="submit" class="default-btn btn active">Login</button>
-                    <a href="recover-password.html">Lost your password?</a>
+                    <button type="submit"  name="check" class="default-btn btn active">Check</button>                  
                 </form>
             </div>
         </div>
