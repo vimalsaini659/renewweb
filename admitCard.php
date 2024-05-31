@@ -1,4 +1,5 @@
 <?php include "footer.php"; ?>
+<title>Admit Card</title>
     <div class="page-banner-area bg-2">
         <div class="container">
             <div class="page-banner-content">

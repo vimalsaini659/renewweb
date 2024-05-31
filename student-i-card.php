@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-
+<title>Student-i-card</title>
     <div class="page-banner-area bg-2">
         <div class="container">
             <div class="page-banner-content">
