@@ -175,6 +175,11 @@
     <script src="assets/js/ajaxchimp.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    <script>
+      if (window.history.replaceState) {
+          window.history.replaceState(null, null, window.location.href);
+      }
+  </script>
 
 </body>
 
