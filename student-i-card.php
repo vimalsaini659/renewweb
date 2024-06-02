@@ -13,20 +13,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $errors[] = "User Name is required.";
     }
 
-    // Validate the registration field VIMAL
+    // Validate the registration field
     $registration = trim($_POST["registration"]);
     if (empty($registration)) {
         $errors[] = "Registration is required.";
     }
   
     $query = "SELECT full_name FROM ai_students WHERE full_name = '$uname' AND reg_no = '$registration'";
-    $result = mysqli_query($conn, $query);
+    $result = mysqli_query($conn, $query);  
 
     if (mysqli_num_rows($result) === 0) {
         $errors[] = "Student ID Card is Not Found";
     }
-
-    mysqli_close($conn);
 
     // Display errors (if any)
     if (!empty($errors)) {
@@ -34,10 +32,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<p class='idcaderror' style='color: red; text-align:center;'>$error</p>";
         }
     } else {
-        // No errors, redirect to index.php
-        header('Location: index.php');
-        exit(); // Ensure no further code is executed after redirection
+        // Fetch the reg_no from the database
+        $query = "SELECT reg_no FROM ai_students WHERE full_name = '$uname' AND reg_no = '$registration'";
+        $result = mysqli_query($conn, $query);
+    
+        if ($row = mysqli_fetch_assoc($result)) {
+            // Found a matching record, extract reg_no
+            $reg_no = $row['reg_no'];
+    
+            // Redirect to index.php with reg_no as a query parameter
+            header("Location: index.php?id=$reg_no");
+            exit(); // Ensure no further code is executed after redirection
+        } else {
+            // No matching record found
+            $errors[] = "Student ID Card is Not Found";
+            foreach ($errors as $error) {
+                echo "<p class='idcaderror' style='color: red; text-align:center;'>$error</p>";
+            }
+        }
     }
+    
+    mysqli_close($conn);
 }
 ?>
 
