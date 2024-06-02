@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $reg_no = $row['reg_no'];
     
             // Redirect to index.php with reg_no as a query parameter
-            header("Location: index.php?id=$reg_no");
+            header("Location:idgenerator.php?id=$reg_no");
             exit(); // Ensure no further code is executed after redirection
         } else {
             // No matching record found
@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row">
             <div class="col-md-6">
                 <div class="login">
-                    <img src="assets/images/newimages/idcard.jpg" alt="">
+                    <img src="assets/images/newimages/idcard1.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-6">
