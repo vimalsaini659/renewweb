@@ -1,6 +1,8 @@
-<?php  include "header.php";
+<?php
+ob_start(); // Start output buffering
+include "header.php";
+include "includes/connection.php";
 
- include "includes/connection.php";
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors = [];
@@ -11,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $errors[] = "User Name is required.";
     }
 
-    // Validate the registration field
+    // Validate the registration field VIMAL
     $registration = trim($_POST["registration"]);
     if (empty($registration)) {
         $errors[] = "Registration is required.";
@@ -26,6 +28,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     mysqli_close($conn);
 
+    // Display errors (if any)
+    if (!empty($errors)) {
+        foreach ($errors as $error) {
+            echo "<p class='idcaderror' style='color: red; text-align:center;'>$error</p>";
+        }
+    } else {
+        // No errors, redirect to index.php
+        header('Location: index.php');
+        exit(); // Ensure no further code is executed after redirection
+    }
+}
 ?>
 
 <title>Student-i-card</title>
@@ -41,20 +54,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </div>
 
-<?php 
-    // Display errors (if any)
-    if (!empty($errors)) {
-        foreach ($errors as $error) {
-            echo "<p class='idcaderror' style='color: red; text-align:center;'>$error</p>";
-        }
-    } else {
-        // Proceed with further actions (e.g., redirect to a success page)
-        // echo "Form data is valid!";
-        header('Location:index.php');
-    }
-}?>
-
-
 <div class="login-area pt-100 pb-70">
     <div class="container">
         <div class="row">
@@ -65,20 +64,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="col-md-6">
                 <div class="login">
-
                     <h3>Student ID card</h3>
-
                     <form method="post" action="" autocomplete="off">
                         <div class="form-group">
-                            <input type="text" id="name" class="form-control" name="uname" placeholder="User Name"
-                                required>
+                            <input type="text" id="name" class="form-control" name="uname" placeholder="User Name" required>
                             <?php if (isset($errors["uname"])): ?>
                             <p style="color: red;"><?php echo $errors["uname"]; ?></p>
                             <?php endif; ?>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="registration" name="registration" class="form-control"
-                                placeholder="Registration*" required>
+                            <input type="text" id="registration" name="registration" class="form-control" placeholder="Registration*" required>
                             <?php if (isset($errors["registration"])): ?>
                             <p style="color: red;"><?php echo $errors["registration"]; ?></p>
                             <?php endif; ?>
@@ -90,4 +85,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 </div>
-<?php include "footer.php"; ?>
+
+<?php 
+include "footer.php"; 
+ob_end_flush(); // Flush the output buffer
+?>
