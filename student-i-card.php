@@ -16,9 +16,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($registration)) {
         $errors[] = "Registration is required.";
     }
-   
-    // Check if the user exists in the database (assuming you have a table named 'ai_student')
-    // You'll need to replace the database connection details and query with your own
   
     $query = "SELECT full_name FROM ai_students WHERE full_name = '$uname' AND reg_no = '$registration'";
     $result = mysqli_query($conn, $query);
@@ -52,7 +49,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     } else {
         // Proceed with further actions (e.g., redirect to a success page)
-        echo "Form data is valid!";
+        // echo "Form data is valid!";
+        header('Location:index.php');
     }
 }?>
 
