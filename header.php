@@ -289,7 +289,7 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Syllabus</a>
+                                        <a href="syllabus.php" class="nav-link">Syllabus</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">Online
