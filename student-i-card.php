@@ -2,7 +2,6 @@
 ob_start(); // Start output buffering
 include "header.php";
 include "includes/connection.php";
-
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors = [];

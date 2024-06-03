@@ -1,32 +1,32 @@
 <?php
-// error_reporting(0);
-// include 'includes/session.php';
-// include('../admin/libs/phpqrcode/qrlib.php');
+error_reporting(0);
+include 'includes/connection.php';
+include('libs/phpqrcode/qrlib.php');
+$id=$_GET['id'];
+$course_id=$_GET['id'];
+$sql = 'SELECT * FROM ai_students LEFT JOIN ai_courses ON ai_courses.cid=ai_students.course_id 
+LEFT JOIN computer_centers ON computer_centers.id = ai_students.center_id
+where ai_students.reg_no= "'.$id.'"';
 
-// $sql = 'SELECT * FROM ai_students LEFT JOIN ai_courses ON ai_courses.cid=ai_students.course_id 
-// LEFT JOIN computer_centers ON computer_centers.id = ai_students.center_id
-// where ai_students.reg_no= "' . $_GET['id'] . '"';
+$query = $conn->query($sql);
+$data = $query->fetch_assoc();
 
-// $query = $conn->query($sql);
-// $data = $query->fetch_assoc();
+$roll_no = $data['roll_no'];
+$student_name = $data['full_name'];
+$father_husband = $data['father_name'];
+$mother_name = $data['mother_name'];
+$dob = $data['dob'];
+$gender = $data['gender'];
+$email = $data['email'];
+$contact = $data['contact'];
+$center = $data['center_name'];
+$address = $data['address'];
 
+$course_title = $data['course_title'];
+$duration = $data['course_duration'];
+$photo = $data['photo'];
 
-// $roll_no = $data['roll_no'];
-// $student_name = $data['full_name'];
-// $father_husband = $data['father_name'];
-// $mother_name = $data['mother_name'];
-// $dob = $data['dob'];
-// $gender = $data['gender'];
-// $email = $data['email'];
-// $contact = $data['contact'];
-// $center = $data['center_name'];
-// $address = $data['address'];
-
-// $course_title = $data['course_title'];
-// $duration = $data['course_duration'];
-// $photo = $data['photo'];
-
-// $student_id = $data['reg_no'];
+$student_id = $data['reg_no'];
 // $tempDir = 'temp/';
 // $codeContents = 'Student Name:' . $student_name . ' Registration: ' . urlencode($student_id) . ' Course: ' . $course_title;
 // QRcode::png($codeContents, $tempDir . '' . $filename . '.png', QR_ECLEVEL_L, 5);

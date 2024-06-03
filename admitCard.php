@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $reg_no = $row['reg_no'];
             $courseid=$row['course_id'];    
             // Redirect to index.php with reg_no as a query parameter          
-            header("Location:admitcard_generate.php?id=$reg_no;&course_id=$courseid");
+            header("Location:admitcard_generate.php?id=$reg_no&course_id=$courseid");
             exit(); // Ensure no further code is executed after redirection
         } else {
             // No matching record found
