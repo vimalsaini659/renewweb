@@ -3,7 +3,23 @@
                     <ul>
                         <li><a href="IgniteYourAmbition.php"><i class="flaticon-next"></i>Ignite Your Ambition
 </a></li>
-                        <li><a href="#"><i class="flaticon-next"></i>Department Details</a></li>
-                        <li><a href="#"><i class="flaticon-next"></i>Journals Departments</a></li>
+                                               <li><a href="NationalInstituteofFashionTechnology.php"><i class="flaticon-next"></i>National Institute of Fashion Technology</a></li>
+                        <li><a href="NationalInstituteofDesign.php"><i class="flaticon-next"></i>National Institute of Design</a></li>
+                        <li><a href="BachelorofFineArts.php"><i class="flaticon-next"></i>Bachelor of Fine Arts</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>PAPER CRAFT</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>RANGOLI</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>DRAW & COLOR</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>CLAY WORK</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>FINE ARTS L-1</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>FINE ARTS L-2</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>ART & CRAFT L-2</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>ART & CRAFT L-1</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>COMPUTER</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>B.A FINE ART</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>BFA</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>MFA</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>NTT</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>YOGA</a></li>
+                        <li><a href="#"><i class="flaticon-next"></i>PTT</a></li>                      
                     </ul>
                 </div>
