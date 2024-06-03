@@ -1,4 +1,5 @@
-<?php include "header.php"; ?>
+<?php
+include "header.php"; ?>
 <title>home</title>
 
     <div class="banner-area">
