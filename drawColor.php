@@ -1,208 +1,281 @@
 <?php include 'header.php'; ?>
-<title>National Institute of Design</title>
-
-
-<div class="page-banner-area bg-1">
-    <div class="container">
-        <div class="page-banner-content">
-            <h1>Entrance Exam of National Institute of Design</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>National Institute of Design</li>
-            </ul>
+    <div class="page-banner-area bg-1">
+        <div class="container">
+            <div class="page-banner-content">
+                <h1>Courses Details</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Courses Details</li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 
 
-<div class="courses-details-area pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="courses-details">
-                    <div class="courses-card">
-                        <h2>National Institute of Design</h2>
-                        <div class="img">
-                            <img src="assets/images/newimages/ent-2.jpg" alt="Image">
+    <div class="courses-details-area pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="courses-details">
+                        <div class="courses-card">
+                            <h2>Python Programming For Data Science</h2>
+                            <div class="img">
+                                <img src="assets/images/courses/courses-4.jpg" alt="Image">
+                            </div>
+                            <div class="list">
+                                <ul>
+                                    <li>
+                                        <div class="teacher">
+                                            <img src="assets/images/courses/admin-1.jpg" alt="Image">
+                                            <p>Teacher: <a href="#">Jessica Hamson</a></p>
+                                        </div>
+                                    </li>
+                                    <li><i class="flaticon-clock"></i><span>Last Update:</span>September 29, 2024</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="list">
-                            <ul>
-                                <li>
-                                    <div class="teacher">
-                                        <!-- <img src="assets/images/newimages/ent-2.jpg" alt="Image"> -->
-                                        <p>Entrance Exam: <a href="#">
-                                                National Institute of Design</a></p>
+                        <div class="description">
+                            <div class="container p-0">
+                                <nav>
+                                    <div class="nav nav-tabs d-flex justify-content-between" id="nav-tab" role="tablist">
+                                        <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-overview" aria-selected="true">Overview</button>
+                                        <button class="nav-link" id="nav-curriculum-tab" data-bs-toggle="tab" data-bs-target="#nav-curriculum" type="button" role="tab" aria-controls="nav-curriculum" aria-selected="false">Curriculum</button>
+                                        <button class="nav-link" id="nav-instructor-tab" data-bs-toggle="tab" data-bs-target="#nav-instructor" type="button" role="tab" aria-controls="nav-instructor" aria-selected="false">Instructor</button>
+                                        <button class="nav-link" id="nav-reviews-tab" data-bs-toggle="tab" data-bs-target="#nav-reviews" type="button" role="tab" aria-controls="nav-reviews" aria-selected="false">Reviews</button>
                                     </div>
-                                </li>
-                                <!-- <li><i class="flaticon-clock"></i><span>Last
-                                        Update:</span>September 29,
-                                    2024</li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="description">
-                        <div class="container p-0">
-                            <nav>
-                                <div class="nav nav-tabs d-flex justify-content-between" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-overview" type="button" role="tab"
-                                        aria-controls="nav-overview" aria-selected="true">Overview</button>
-                                    <button class="nav-link" id="nav-curriculum-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-curriculum" type="button" role="tab"
-                                        aria-controls="nav-curriculum" aria-selected="false">Curriculum</button>
-                                    <button class="nav-link" id="nav-instructor-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-instructor" type="button" role="tab"
-                                        aria-controls="nav-instructor" aria-selected="false">Main</button>
-                                    <button class="nav-link" id="nav-reviews-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-reviews" type="button" role="tab"
-                                        aria-controls="nav-reviews" aria-selected="false">Reviews</button>
-                                </div>
-                            </nav>
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
-                                    aria-labelledby="nav-overview-tab">
-                                    <div class="overview">
-                                        <div class="learn">
-                                            <h3>Entrance Exam: National Institute of Design</h3>
-                                            <p> The National Institute of Design (NID) entrance exam is conducted in two
-                                                stages: the Design Aptitude Test (DAT) Prelims and the DAT Mains. This
-                                                exam assesses candidates on various aspects of design, creativity, and
-                                                general knowledge related to art and design.</p>
-                                            <p>The Global Institute of Fine Arts (GIFA) in Kurukshetra may not directly
-                                                conduct the entrance exam for the National Institute of Design (NID).
-                                                However, if GIFA offers coaching or preparatory courses for the NID
-                                                entrance exam, here’s an overview of what the preparation and entrance
-                                                exam might entail:</p>
-                                        </div>
-                                        <div class="overview-box">
-                                            <h4>Stay Updated:</h4>
-                                            <p>Keep up with the latest trends and developments in the design world.</p>
-                                        </div>
-                                        <div class="overview-box">
-                                            <h4>Practice Regularly:</h4>
-                                            <p> Consistent practice of drawing, sketching, and other practical skills.
-                                            </p>
-                                        </div>
-                                        <div class="overview-box">
-                                            <h4>Study Design History:</h4>
-                                            <p> Familiarize yourself with key design movements, designers, and their
-                                                works. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav-curriculum" role="tabpanel"
-                                    aria-labelledby="nav-curriculum-tab">
-                                    <div class="curriculum">
-                                        <h3>NID Entrance Exam Structure:</h3>
-                                        <p>Design Aptitude Test (DAT) Prelims</p>
-                                        <div class="curriculum-list">
-                                            <ul>
-                                                Design Aptitude Test (DAT) Prelims Format: Written exam
-                                                <li>Duration
-                                                    ?<span>03
-                                                        Hour</span></li>
-                                            </ul>
-                                            <div class="comments">
-                                                <h3> Sections</h3>
-                                                <div class="single-comments-box">
-
-                                                    <h4>Part A: </h4>
-
-                                                    <p>Lorem ipsum dolor sit amet, consectetur
-                                                        adipiscing elit, sed do eiusmod tem
-                                                        incid idunt ut dolore magna aliqua. Ut
-                                                        enim ad minim ven iam quis nostrud </p>
-                                                </div>
-                                                <div class="single-comments-box">
-                                                    <h4>Part B</h4>
-                                                    <p>Subjective questions that evaluate drawing, creativity, and
-                                                        visual perception skills.
-                                                    </p>
-                                                </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
+                                        <div class="overview">
+                                            <div class="learn">
+                                                <h3>What Will You Learn?</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
+                                            </div>
+                                            <div class="overview-box">
+                                                <h4>Visual Learning with theory</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
+                                            </div>
+                                            <div class="overview-box">
+                                                <h4>Layton Basic Logical Program</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
+                                            </div>
+                                            <div class="overview-box">
+                                                <h4>Error resolution and implementation</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav-instructor" role="tabpanel"
-                                    aria-labelledby="nav-instructor-tab">
-                                    <div class="row">
-                                        <div class="instructor">
-                                            <div class="row align-items-center">                                                
-                                                <div class="col-lg-12">
-                                                    <div class="instructor-content">
-                                                        <div class="name">
-                                                            <h3>Design Aptitude Test (DAT) Mains</h3>
-                                                            <p>Duration: Typically 2-3 days</p>
+                                    <div class="tab-pane fade" id="nav-curriculum" role="tabpanel" aria-labelledby="nav-curriculum-tab">
+                                        <div class="curriculum">
+                                            <h3>Starting With Sanu</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore</p>
+                                            <div class="curriculum-list">
+                                                <ul>
+                                                    <li>Lesson1: Introduction Of Programming language ?<span>01 Hour</span></li>
+                                                    <li>Lesson2: Installation and Set-Up Guide ?<span>03 Hour</span></li>
+                                                    <li>Lesson3: Working with String, Boolean Functions ?<span>01 Hour</span></li>
+                                                    <li>Lesson4: Working on Form Controls ?<span>30 min</span></li>
+                                                    <li>Lesson5: Error Solutions and code debugging ?<span>01 Hour</span></li>
+                                                    <li>Lesson6: Working with live site.<span>01 Hour</span></li>
+                                                    <li>Module Handling<span>02 Hour</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-instructor" role="tabpanel" aria-labelledby="nav-instructor-tab">
+                                        <div class="row">
+                                            <div class="instructor">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-5">
+                                                        <div class="instructor-image">
+                                                            <img src="assets/images/courses/instructor.jpg" alt="Image">
                                                         </div>
-                                                        <p class="mb-30">Format: Studio test, followed by a personal interview and portfolio review.</p>
-                                                        <div class="quick-contact">
-                                                            <h4>Sections</h4>
-                                                            <ul>
-                                                                <li></i>Studio Test: Practical exercises in design problem-solving, model making, and material handling.</li>
-                                                              
-                                                            </ul>
-                                                            <ul>
-                                                                <li>Personal Interview: Assessment of the candidate’s passion for design, understanding of their portfolio, and future aspirations.</li>
-                                                            </ul>
+                                                    </div>
+                                                    <div class="col-lg-7">
+                                                        <div class="instructor-content">
+                                                            <div class="name">
+                                                                <h3>Samantha Nicola</h3>
+                                                                <p>Instructor Of Economy</p>
+                                                            </div>
+                                                            <p class="mb-30">deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+                                                            <div class="quick-contact">
+                                                                <h4>Quick Contact</h4>
+                                                                <ul>
+                                                                    <li><i class="ri-phone-line"></i><span>Phone Number:</span><a href="tel:8002162020">(800) 216 2020
+                                                                        </a></li>
+                                                                    <li><i class="ri-mail-line"></i><span>Email:</span><a href="tel:8002162020"><span class="__cf_email__" data-cfemail="2d64434b426d48554c405d4148034e4240">[email&#160;protected]</span></a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="social">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="https://instagram.com/?lang=en" target="_blank"><i class="ri-instagram-line"></i></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://linkedin.com/?lang=en" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-fill"></i></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="https://www.twitter.com/" target="_blank"><i class="ri-twitter-fill"></i></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                    
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
+                                        <div class="reviews">
+                                            <div class="single-reviews-card">
+                                                <img src="assets/images/courses/review-1.png" alt="Images">
+                                                <h2>Jorge Overall</h2>
+                                                <div class="date">
+                                                    <p>jan 17, 2024 at 10:43 am</p>
+                                                </div>
+                                                <div class="icon">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
+                                            </div>
+                                            <div class="single-reviews-card">
+                                                <img src="assets/images/courses/review-2.png" alt="Images">
+                                                <h2>Manuel Myers</h2>
+                                                <div class="date">
+                                                    <p>jan 17, 2024 at 10:43 am</p>
+                                                </div>
+                                                <div class="icon">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
+                                            </div>
+                                            <div class="single-reviews-card">
+                                                <img src="assets/images/courses/review-1.png" alt="Images">
+                                                <h2>Sally Hatch</h2>
+                                                <div class="date">
+                                                    <p>jan 17, 2024 at 10:43 am</p>
+                                                </div>
+                                                <div class="icon">
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
+                                            </div>
+                                            <div class="review-form">
+                                                <h3>Write a Review</h3>
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>Name</label>
+                                                                <input type="text" class="form-control" id="name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>Email</label>
+                                                                <input type="email" class="form-control" id="email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group">
+                                                                <label>Summary</label>
+                                                                <textarea class="form-control" id="review" rows="4"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="default-btn btn">Submit Review</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                              
                             </div>
                         </div>
-                    </div>
-                    <div class="comments">
-                        <h3>2 comments</h3>
-                        <div class="single-comments-box">
-                            <img src="assets/images/courses/review-1.png" alt="Images">
-                            <h4>James Benjamin</h4>
-                            <div class="date">
-                                <p>jan 17, 2024 at 10:43 am</p>
+                        <div class="comments">
+                            <h3>2 comments</h3>
+                            <div class="single-comments-box">
+                                <img src="assets/images/courses/review-1.png" alt="Images">
+                                <h4>James Benjamin</h4>
+                                <div class="date">
+                                    <p>jan 17, 2024 at 10:43 am</p>
+                                </div>
+                                <div class="reply">
+                                    <a href="#">Reply</a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
                             </div>
-                            <div class="reply">
-                                <a href="#">Reply</a>
+                            <div class="single-comments-box">
+                                <img src="assets/images/courses/review-2.png" alt="Images">
+                                <h4>Elizabeth Sofia</h4>
+                                <div class="date">
+                                    <p>jan 17, 2024 at 10:43 am</p>
+                                </div>
+                                <div class="reply">
+                                    <a href="#">Reply</a>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tem
-                                incid idunt ut dolore magna aliqua. Ut
-                                enim ad minim ven iam quis nostrud </p>
                         </div>
-                        <div class="single-comments-box">
-                            <img src="assets/images/courses/review-2.png" alt="Images">
-                            <h4>Elizabeth Sofia</h4>
-                            <div class="date">
-                                <p>jan 17, 2024 at 10:43 am</p>
+                        <div class="reply-area">
+                            <div class="reply-form">
+                                <h3>Leave a Reply</h3>
+                                <p>Your email address will not be published.</p>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="review2" rows="4" placeholder="Comment"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="name2" placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email2" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="website" placeholder="Website">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Save my name, email, and website in this browser for the next time I comment.
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="default-btn btn">Post a Comment <i class="flaticon-paper-plane"></i></button>
+                                </form>
                             </div>
-                            <div class="reply">
-                                <a href="#">Reply</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tem
-                                incid idunt ut dolore magna aliqua. Ut
-                                enim ad minim ven iam quis nostrud </p>
-                        </div>
-                    </div>
-                    <div class="reply-area">
-                        <div class="reply-form">
-                            <h3>Leave a Reply</h3>
-                            <p>Your email address will not be
-                                published.</p>
-                          
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <?php include 'syllabusSidebar.php'; ?>
+                <div class="col-lg-4">
+              <?php include 'syllabusSidebar.php'; ?>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 
 <?php include 'footer.php'; ?>
