@@ -66,9 +66,9 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Hobby Classes</a></p>
+                                <p><a href="papercraft.php">Hobby Classes</a></p>
                             </div>
-                            <a href="#">
+                            <a href="papercraft.php">
                                 <h3>PAPER CRAFT</h3>
                             </a>
                             <div class="bottom-content">
@@ -81,7 +81,7 @@
                                                 Months</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="papercraft.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -498,12 +498,12 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter hobby">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/hobby2.jpg" alt="Image"></a>
+                            <a href="rangoli.php"><img src="assets/images/newimages/hobby2.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Hobby Classes</a></p>
+                                <p><a href="rangoli.php">Hobby Classes</a></p>
                             </div>
                             <a href="#">
                                 <h3>RANGOLI</h3>
@@ -517,7 +517,7 @@
                                                 Months</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="rangoli.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -526,14 +526,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter hobby">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/hobby3.jpg" alt="Image"></a>
+                            <a href="drawColor.php"><img src="assets/images/newimages/hobby3.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Hobby Classes</a></p>
+                                <p><a href="drawColor.php">Hobby Classes</a></p>
                             </div>
-                            <a href="#">
+                            <a href="drawColor.php">
                                 <h3>DRAW & COLOR</h3>
                             </a>
                             <div class="bottom-content">
@@ -546,7 +546,7 @@
                                                 Months</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="drawColor.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
