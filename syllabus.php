@@ -96,7 +96,7 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-3.jpg" alt="Image"> -->
-                                <p><a href="#">Entrance Exam</a></p>
+                                <p><a href="NationalInstituteofFashionTechnology.php">Entrance Exam</a></p>
                             </div>
                             <a href="#">
                                 <h3>National Institute of Fashion
@@ -111,7 +111,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="NationalInstituteofFashionTechnology.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -444,9 +444,9 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/courses/admin-3.jpg" alt="Image"> -->
-                                <p><a href="#">Entrance Exam</a></p>
+                                <p><a href="NationalInstituteofDesign.php">Entrance Exam</a></p>
                             </div>
-                            <a href="#">
+                            <a href="NationalInstituteofDesign.php">
                                 <h3>National Institute of Design</h3>
                             </a>
                             <div class="bottom-content">
@@ -458,7 +458,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="NationalInstituteofDesign.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -560,9 +560,9 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Entrance Exam</a></p>
+                                <p><a href="BachelorofFineArts.php">Entrance Exam</a></p>
                             </div>
-                            <a href="#">
+                            <a href="BachelorofFineArts.php">
                                 <h3>Bachelor of Fine Arts</h3>
                             </a>
                             <div class="bottom-content">
@@ -574,7 +574,7 @@
                                                 Months</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="BachelorofFineArts.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
