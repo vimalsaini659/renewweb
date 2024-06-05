@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<title>home</title>
+<title>Syllabus</title>
 <div class="page-banner-area bg-2">
     <div class="container">
         <div class="page-banner-content">
@@ -267,9 +267,9 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Diploma Programs</a></p>
+                                <p><a href="fineArtL1.php">Diploma Programs</a></p>
                             </div>
-                            <a href="#">
+                            <a href="fineArtL1.php">
                                 <h3>FINE ARTS L-1</h3>
                             </a>
                             <div class="bottom-content">
@@ -282,7 +282,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="fineArtL1.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -296,9 +296,9 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Diploma Programs</a></p>
+                                <p><a href="fineArtL2.php">Diploma Programs</a></p>
                             </div>
-                            <a href="#">
+                            <a href="fineArtL2.php">
                                 <h3>FINE ARTS L-2</h3>
                             </a>
                             <div class="bottom-content">
@@ -311,7 +311,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="fineArtL2.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -356,22 +356,21 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Diploma Programs</a></p>
+                                <p><a href="artcraftl1.php">Diploma Programs</a></p>
                             </div>
-                            <a href="#">
-                                <h3>ART & CRAFT L-2</h3>
+                            <a href="artcraftl1.php">
+                                <h3>ART & CRAFT L-1</h3>
                             </a>
                             <div class="bottom-content">
                                 <ul class="d-flex justify-content-between">
                                     <li>
                                         <ul>
-                                            <li><i class="flaticon-graduation"></i>FINE
-                                                ARTS L-2</li>
-                                            <li><i class="flaticon-time"></i>2
+                                            <li><i class="flaticon-graduation"></i>ART & CRAFT</li>
+                                            <li><i class="flaticon-time"></i>1
                                                 Years</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="artcraftl1.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -473,22 +472,21 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Diploma Programs</a></p>
+                                <p><a href="artcraftL2.php">Diploma Programs</a></p>
                             </div>
-                            <a href="#">
-                                <h3>ART & CRAFT L-1</h3>
+                            <a href="artcraftL2.php">
+                                <h3>ART & CRAFT L-2</h3>
                             </a>
                             <div class="bottom-content">
                                 <ul class="d-flex justify-content-between">
                                     <li>
                                         <ul>
-                                            <li><i class="flaticon-graduation"></i>FINE
-                                                ARTS L-2</li>
-                                            <li><i class="flaticon-time"></i>1
+                                            <li><i class="flaticon-graduation"></i>ART & CRAFT</li>
+                                            <li><i class="flaticon-time"></i>2
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="artcraftL2.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
