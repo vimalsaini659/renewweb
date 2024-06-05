@@ -61,7 +61,7 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter hobby">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/hobby1.jpg" alt="Image"></a>
+                            <a href="papercraft.php"><img src="assets/images/newimages/hobby1.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
@@ -588,9 +588,9 @@
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Hobby Classes</a></p>
+                                <p><a href="claywork.php">Hobby Classes</a></p>
                             </div>
-                            <a href="#">
+                            <a href="claywork.php">
                                 <h3>CLAY WORK</h3>
                             </a>
                             <div class="bottom-content">
@@ -603,7 +603,7 @@
                                                 Month</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="claywork.php">View</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -1,281 +1,233 @@
 <?php include 'header.php'; ?>
-    <div class="page-banner-area bg-1">
-        <div class="container">
-            <div class="page-banner-content">
-                <h1>Courses Details</h1>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Courses Details</li>
-                </ul>
-            </div>
+<title>DRAW & COLOR</title>
+
+<div class="page-banner-area bg-1">
+    <div class="container">
+        <div class="page-banner-content">
+            <h1>DRAW & COLOR</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>DRAW & COLOR</li>
+            </ul>
         </div>
     </div>
+</div>
 
 
-    <div class="courses-details-area pt-100 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="courses-details">
-                        <div class="courses-card">
-                            <h2>Python Programming For Data Science</h2>
-                            <div class="img">
-                                <img src="assets/images/courses/courses-4.jpg" alt="Image">
-                            </div>
-                            <div class="list">
-                                <ul>
-                                    <li>
-                                        <div class="teacher">
-                                            <img src="assets/images/courses/admin-1.jpg" alt="Image">
-                                            <p>Teacher: <a href="#">Jessica Hamson</a></p>
-                                        </div>
-                                    </li>
-                                    <li><i class="flaticon-clock"></i><span>Last Update:</span>September 29, 2024</li>
-                                </ul>
-                            </div>
+<div class="courses-details-area pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="courses-details">
+                    <div class="courses-card">
+                        <h2>Hobby Class- DRAW & COLOR</h2>
+                        <div class="img">
+                            <img src="assets/images/newimages/hobby4.png" alt="Image">
                         </div>
-                        <div class="description">
-                            <div class="container p-0">
-                                <nav>
-                                    <div class="nav nav-tabs d-flex justify-content-between" id="nav-tab" role="tablist">
-                                        <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-overview" aria-selected="true">Overview</button>
-                                        <button class="nav-link" id="nav-curriculum-tab" data-bs-toggle="tab" data-bs-target="#nav-curriculum" type="button" role="tab" aria-controls="nav-curriculum" aria-selected="false">Curriculum</button>
-                                        <button class="nav-link" id="nav-instructor-tab" data-bs-toggle="tab" data-bs-target="#nav-instructor" type="button" role="tab" aria-controls="nav-instructor" aria-selected="false">Instructor</button>
-                                        <button class="nav-link" id="nav-reviews-tab" data-bs-toggle="tab" data-bs-target="#nav-reviews" type="button" role="tab" aria-controls="nav-reviews" aria-selected="false">Reviews</button>
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <div class="teacher">
+                                        <!-- <img src="assets/images/newimages/hobby3.jpg" alt="Image"> -->
+                                        <p>Hobby Class: <a href="#">DRAW & COLOR</a></p>
                                     </div>
-                                </nav>
-                                <div class="tab-content" id="nav-tabContent">
-                                    <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
-                                        <div class="overview">
-                                            <div class="learn">
-                                                <h3>What Will You Learn?</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore </p>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
-                                            </div>
-                                            <div class="overview-box">
-                                                <h4>Visual Learning with theory</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                                            </div>
-                                            <div class="overview-box">
-                                                <h4>Layton Basic Logical Program</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                                            </div>
-                                            <div class="overview-box">
-                                                <h4>Error resolution and implementation</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-curriculum" role="tabpanel" aria-labelledby="nav-curriculum-tab">
-                                        <div class="curriculum">
-                                            <h3>Starting With Sanu</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore</p>
-                                            <div class="curriculum-list">
-                                                <ul>
-                                                    <li>Lesson1: Introduction Of Programming language ?<span>01 Hour</span></li>
-                                                    <li>Lesson2: Installation and Set-Up Guide ?<span>03 Hour</span></li>
-                                                    <li>Lesson3: Working with String, Boolean Functions ?<span>01 Hour</span></li>
-                                                    <li>Lesson4: Working on Form Controls ?<span>30 min</span></li>
-                                                    <li>Lesson5: Error Solutions and code debugging ?<span>01 Hour</span></li>
-                                                    <li>Lesson6: Working with live site.<span>01 Hour</span></li>
-                                                    <li>Module Handling<span>02 Hour</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-instructor" role="tabpanel" aria-labelledby="nav-instructor-tab">
-                                        <div class="row">
-                                            <div class="instructor">
-                                                <div class="row align-items-center">
-                                                    <div class="col-lg-5">
-                                                        <div class="instructor-image">
-                                                            <img src="assets/images/courses/instructor.jpg" alt="Image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-7">
-                                                        <div class="instructor-content">
-                                                            <div class="name">
-                                                                <h3>Samantha Nicola</h3>
-                                                                <p>Instructor Of Economy</p>
-                                                            </div>
-                                                            <p class="mb-30">deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                                            <div class="quick-contact">
-                                                                <h4>Quick Contact</h4>
-                                                                <ul>
-                                                                    <li><i class="ri-phone-line"></i><span>Phone Number:</span><a href="tel:8002162020">(800) 216 2020
-                                                                        </a></li>
-                                                                    <li><i class="ri-mail-line"></i><span>Email:</span><a href="tel:8002162020"><span class="__cf_email__" data-cfemail="2d64434b426d48554c405d4148034e4240">[email&#160;protected]</span></a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="social">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="https://instagram.com/?lang=en" target="_blank"><i class="ri-instagram-line"></i></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="https://linkedin.com/?lang=en" target="_blank"><i class="ri-linkedin-fill"></i></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-fill"></i></a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="https://www.twitter.com/" target="_blank"><i class="ri-twitter-fill"></i></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
-                                        <div class="reviews">
-                                            <div class="single-reviews-card">
-                                                <img src="assets/images/courses/review-1.png" alt="Images">
-                                                <h2>Jorge Overall</h2>
-                                                <div class="date">
-                                                    <p>jan 17, 2024 at 10:43 am</p>
-                                                </div>
-                                                <div class="icon">
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                                            </div>
-                                            <div class="single-reviews-card">
-                                                <img src="assets/images/courses/review-2.png" alt="Images">
-                                                <h2>Manuel Myers</h2>
-                                                <div class="date">
-                                                    <p>jan 17, 2024 at 10:43 am</p>
-                                                </div>
-                                                <div class="icon">
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                                            </div>
-                                            <div class="single-reviews-card">
-                                                <img src="assets/images/courses/review-1.png" alt="Images">
-                                                <h2>Sally Hatch</h2>
-                                                <div class="date">
-                                                    <p>jan 17, 2024 at 10:43 am</p>
-                                                </div>
-                                                <div class="icon">
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                    <i class="ri-star-fill"></i>
-                                                </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                                            </div>
-                                            <div class="review-form">
-                                                <h3>Write a Review</h3>
-                                                <form>
-                                                    <div class="row">
-                                                        <div class="col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>Name</label>
-                                                                <input type="text" class="form-control" id="name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>Email</label>
-                                                                <input type="email" class="form-control" id="email">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-12">
-                                                            <div class="form-group">
-                                                                <label>Summary</label>
-                                                                <textarea class="form-control" id="review" rows="4"></textarea>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <button type="submit" class="default-btn btn">Submit Review</button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                </li>
+                                <li><i class="flaticon-clock"></i><span>Diffrent Types </span>DRAW & COLOR</li>
+                            </ul>
                         </div>
-                        <div class="comments">
-                            <h3>2 comments</h3>
-                            <div class="single-comments-box">
-                                <img src="assets/images/courses/review-1.png" alt="Images">
-                                <h4>James Benjamin</h4>
-                                <div class="date">
-                                    <p>jan 17, 2024 at 10:43 am</p>
+                    </div>
+                    <div class="description">
+                        <div class="container p-0">
+                            <nav>
+                                <div class="nav nav-tabs d-flex justify-content-between" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-overview" aria-selected="true">Overview</button>
+                                    <button class="nav-link" id="nav-curriculum-tab" data-bs-toggle="tab" data-bs-target="#nav-curriculum" type="button" role="tab" aria-controls="nav-curriculum" aria-selected="false">Curriculum</button>
+                                    <button class="nav-link" id="nav-instructor-tab" data-bs-toggle="tab" data-bs-target="#nav-instructor" type="button" role="tab" aria-controls="nav-instructor" aria-selected="false">Instructor</button>
+                                    <button class="nav-link" id="nav-reviews-tab" data-bs-toggle="tab" data-bs-target="#nav-reviews" type="button" role="tab" aria-controls="nav-reviews" aria-selected="false">Reviews</button>
                                 </div>
-                                <div class="reply">
-                                    <a href="#">Reply</a>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
+                                    <div class="overview">
+                                        <div class="learn">
+                                            <h3>Welcome to the Draw & Color Hobby Class!</h3>
+                                            <p>Unlock your creativity and enhance your artistic skills with our comprehensive Draw & Color Hobby Class. This 2-month course is designed for individuals of all skill levels, from complete beginners to intermediate artists looking to refine their techniques.</p>
+                                            <p>Under the guidance of our experienced instructor, you will explore a variety of drawing and coloring methods, learning to create beautiful and expressive artwork.</p>
+                                        </div>
+                                        <h3>Join GIFA&apos;s DRAW & COLOR
+
+                                            Class Today!</h3>
+                                        <h5>What You'll Learn:</h5>
+                                        <div class="overview-box">
+                                            <h4>Fundamental Drawing Principles</h4>
+                                            <p>Understand the basics of lines, shapes, forms, and the essential tools and materials needed for drawing.</p>
+                                        </div>
+                                         
+
+
+
+                                        <div class="overview-box">
+                                            <h4> Shading and Texture:</h4>
+                                            <p>Master different shading techniques such as hatching, cross-hatching, and stippling to add depth and texture to your drawings. </p>
+                                        </div>
+                                        <div class="overview-box">
+                                            <h4>Perspective and Proportion: </h4>
+                                            <p>Learn to create realistic scenes by grasping the concepts of perspective and proportion. </p>
+                                        </div>
+                                        <div class="overview-box">
+                                            <h4>Composition and Layout:</h4>
+                                            <p> Discover the principles of composition to create balanced and visually appealing artwork.</p>
+                                        </div>
+                                        <div class="overview-box">
+                                            <h4>Coloring Techniques:</h4>
+                                            <p> Explore various coloring mediums including colored pencils, markers, and watercolors, and learn blending and layering techniques to bring your drawings to life. </p>
+                                        </div>
+                                        <h3>Materials Needed:</h3>    <ul>
+                                            <li> Drawing pencils (various grades)</li>
+                                            <li>Erasers (kneaded and standard)</li>
+                                            <li>Drawing paper/sketchbook</li>
+                                            <li>Rulers and compasses</li>
+                                            <li>Colored pencils, markers, and/or watercolor paints</li>
+                                            <li>Brushes (for watercolor)</li>
+                                            <li>Blending tools (stumps, tortillons)</li>
+                                            <li>Sharpener</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                            </div>
-                            <div class="single-comments-box">
-                                <img src="assets/images/courses/review-2.png" alt="Images">
-                                <h4>Elizabeth Sofia</h4>
-                                <div class="date">
-                                    <p>jan 17, 2024 at 10:43 am</p>
+                                <div class="tab-pane fade" id="nav-curriculum" role="tabpanel" aria-labelledby="nav-curriculum-tab">
+                                    <div class="curriculum">
+                                        <h3>Course Structure:</h3>
+                                        <p>Over the course of 8 weeks, you will engage in a series of structured lessons and hands-on practice sessions. Each week focuses on different aspects of drawing and coloring, building on your skills progressively. You will have the opportunity to complete weekly assignments, participate in class activities, and work on a final project that showcases your artistic growth.</p>
+                                        <h4>Weekly Breakdown:</h4>
+                                        <div class="curriculum-list">    
+                                            <ul>
+                                                <li>Introduction to Drawing - Basics of lines, shapes, and forms.<span>Week 1</span></li>
+                                                <li>Shading and Texture - Techniques for creating depth and texture.<span>Week 2</span></li>
+                                                <li>Perspective and Proportion - Drawing realistic scenes.<span>Week 3</span></li>
+                                                <li>Composition and Layout - Principles of creating balanced artwork.<span>Week 4</span></li>
+                                                <li>Introduction to Coloring Mediums - Overview of colored pencils, markers, and watercolors.<span>Week 5</span></li>
+                                                <li>Colored Pencil Techniques - Blending, layering, and creating texture.<span>Week 6</span></li>
+                                                <li>Marker and Watercolor Techniques - Using markers and watercolors effectively.<span>Week 7</span></li>
+                                                <li>Combining learned techniques to create and present a final piece.<span>Week 8</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="reply">
-                                    <a href="#">Reply</a>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut dolore magna aliqua. Ut enim ad minim ven iam quis nostrud </p>
-                            </div>
-                        </div>
-                        <div class="reply-area">
-                            <div class="reply-form">
-                                <h3>Leave a Reply</h3>
-                                <p>Your email address will not be published.</p>
-                                <form>
+                                <div class="tab-pane fade" id="nav-instructor" role="tabpanel" aria-labelledby="nav-instructor-tab">
                                     <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" id="review2" rows="4" placeholder="Comment"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="name2" placeholder="Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" id="email2" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="website" placeholder="Website">
+                                        <div class="instructor">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-5">
+                                                    <div class="instructor-image">
+                                                        <img src="assets/images/newimages/gagan-singh.jpg" alt="Image">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7">
+                                                    <div class="instructor-content">
+                                                        <div class="name">
+                                                            <h3>Gagan Artist </h3>
+                                                            <p>President IAS (Society)</p>
+                                                        </div>
+                                                        <p class="mb-30">Gagan is an extraordinary artist whose creative brilliance has illuminated the world of fine arts for an inspiring 14 years.</p>
+                                                        <div class="quick-contact">
+                                                            <h4>Quick Contact</h4>
+                                                            <ul>
+                                                                <li><i class="ri-phone-line"></i><span>Phone Number:</span><a href="tel:9992588777">9992588777
+                                                                    </a></li>
+                                                                <li><i class="ri-mail-line"></i><span>Email:</span><a href="mailto:gifaartcollege@gmail.com"><span class="__cf_email__">gifaartcollege@gmail.com</span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="social">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" target="_blank"><i class="ri-instagram-line"></i></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" target="_blank"><i class="ri-facebook-fill"></i></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" target="_blank"><i class="ri-twitter-fill"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Save my name, email, and website in this browser for the next time I comment.
-                                        </label>
+                                </div>
+                                <div class="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
+                                    <div class="reviews">
+                                        <div class="single-reviews-card">
+                                            <img src="assets/images/newimages/testimonials.png" alt="Images">
+                                            <h2>Shivika</h2>
+                                            <div class="date">
+                                                <p>Student</p>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <p>The Draw & Color class at GIFA exceeded my expectations. The instructor was very knowledgeable and provided excellent tips and feedback. I enjoyed learning about different perspectives and compositions, which helped me create more dynamic drawings. The class activities were fun and engaging, making the learning process enjoyable. I’ve gained a lot of confidence in my artistic abilities thanks to this class.</p>
+                                        </div>
+                                        <div class="single-reviews-card">
+                                            <img src="assets/images/newimages/testimonials.png" alt="Images">
+                                            <h2>Sunita Rani</h2>
+                                            <div class="date">
+                                                <p>Student</p>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <p>This class was a game-changer for me. The Draw & Color class at GIFA helped me refine my drawing skills and explore new coloring techniques. The instructor&apos;s guidance was invaluable, and the class structure allowed for both learning and creativity. I now have a portfolio of artwork that I&apos;m really proud of. I highly recommend this class to anyone looking to improve their drawing and coloring skills.</p>
+                                        </div>
+                                        <div class="single-reviews-card">
+                                            <img src="assets/images/newimages/testimonials.png" alt="Images">
+                                            <h2>Divansh</h2>
+                                            <div class="date">
+                                                <p>Student</p>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                                <i class="ri-star-fill"></i>
+                                            </div>
+                                            <p>The Draw & Color class at GIFA was an amazing experience! The instructor was very knowledgeable and provided excellent guidance throughout the course. I started as a complete beginner, and by the end, I was able to create detailed and colorful drawings. The hands-on practice sessions were incredibly helpful, and I loved exploring different coloring techniques. Highly recommend!</p>
+                                        </div>
                                     </div>
-                                    <button type="submit" class="default-btn btn">Post a Comment <i class="flaticon-paper-plane"></i></button>
-                                </form>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="comments">
+                        <h3>Course Objectives:</h3>
+                        <ul>
+                            <li>Understand the cultural significance and history of Rangoli</li>
+                            <li>Learn basic and advanced Rangoli patterns and designs</li>
+                            <li>Master techniques for creating symmetrical and intricate designs</li>
+                            <li>Experiment with different materials and color combinations</li>
+                            <li>Develop creativity and precision in Rangoli making</li>
+                        </ul>
+                    </div>
+
                 </div>
-                <div class="col-lg-4">
-              <?php include 'syllabusSidebar.php'; ?>
-                </div>
+            </div>
+            <div class="col-lg-4">
+                <?php include 'syllabusSidebar.php'; ?>
             </div>
         </div>
     </div>
-
+</div>
 <?php include 'footer.php'; ?>
