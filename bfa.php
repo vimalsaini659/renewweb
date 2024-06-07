@@ -1,13 +1,13 @@
 <?php include 'header.php'; ?>
-<title>ART & CRAFT L-2</title>
+<title>BFA</title>
 
 <div class="page-banner-area bg-1">
     <div class="container">
         <div class="page-banner-content">
-            <h1>ART & CRAFT L-2</h1>
+            <h1>BFA</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>ART & CRAFT L-2</li>
+                <li>BFA</li>
             </ul>
         </div>
     </div>
@@ -20,19 +20,19 @@
             <div class="col-lg-8">
                 <div class="courses-details">
                     <div class="courses-card">
-                        <h2>Diploma Programs- ART & CRAFT L-2</h2>
+                        <h2>Degree Programs- BFA</h2>
                         <div class="img">
-                            <img src="assets/images/newimages/artcraft02.jpg" alt="Image">
+                            <img src="assets/images/newimages/bfa.webp" alt="Image">
                         </div>
                         <div class="list">
                             <ul>
                                 <li>
                                     <div class="teacher">
                                         <!-- <img src="assets/images/newimages/hobby3.jpg" alt="Image"> -->
-                                        <p>Diploma Programs: <a href="#">ART & CRAFT L-2</a></p>
+                                        <p>Degree Programs: <a href="#">BFA</a></p>
                                     </div>
                                 </li>
-                                <li><i class="flaticon-clock"></i><span>Diffrent Types </span>ART & CRAFT L-2</li>
+                                <li><i class="flaticon-clock"></i><span>Diffrent Types </span>BFA</li>
                             </ul>
                         </div>
                     </div>
@@ -50,29 +50,22 @@
                                 <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
                                     <div class="overview">
                                         <div class="learn">
-                                            <h3>Welcome to the ART & CRAFT L-2 Diploma Programs!</h3>
-                                            <p>The ART & CRAFT 2-year diploma degree is a comprehensive program designed to develop skills in various forms of art and craft. This program typically includes courses in drawing, painting, sculpture, ceramics, textiles, and more.</p>
-                                            <p>Students gain hands-on experience and theoretical knowledge, preparing them for careers in the creative industry or for further studies in fine arts.</p>
+                                            <h3>Welcome to the BFA Degree Programs!</h3>
+                                            <p>The Bachelor of Fine Arts (B.F.A.) at GIFA College of Fine Arts, Kurukshetra</p>
+                                            <p>The program balances studio practice with theoretical studies, equipping students with the skills and knowledge needed to excel in various art careers.</p>
                                         </div>
-                                        <h3>Join GIFA&apos;s ART & CRAFT L-2
+                                        <h3>Join GIFA&apos;s BFA
 
                                             Class Today!</h3>
                                         <h5>What You'll Learn:</h5>
                                         <div class="overview-box">
-                                            <h4>Fundamental Drawing Principles</h4>
-                                            <p>Understand the basics of lines, shapes, forms, and the essential tools and materials needed for drawing.</p>
+                                            <h4>Comprehensive Curriculum:</h4>
+                                            <p>The B.F.A. program at GIFA offers a well-rounded education, combining practical studio work with theoretical knowledge. Students gain a broad skill set across various art forms, from traditional techniques to contemporary digital practices.</p>
                                         </div>
-                                         
-                                        
- Learn from professionals and artists with extensive experience in the field.
-
- 
-
-
 
                                         <div class="overview-box">
-                                            <h4>  Hands-on Training:</h4>
-                                            <p> Learn from professionals and artists with extensive experience in the field.</p>
+                                            <h4>  Experienced Faculty:</h4>
+                                            <p>Learn from accomplished artists and scholars who bring real-world insights and personalized mentorship to the classroom. The faculty&apos;s dedication to student success ensures a supportive and enriching learning environment.</p>
                                         </div>
                                         <div class="overview-box">
                                             <h4>Experienced Faculty:</h4>
@@ -168,7 +161,7 @@
                                     <div class="reviews">
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
-                                            <h2>Shivika</h2>
+                                            <h2>Dipanshu</h2>
                                             <div class="date">
                                                 <p>Student</p>
                                             </div>
@@ -179,7 +172,7 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>The ART & CRAFT L-2 class at GIFA exceeded my expectations. The instructor was very knowledgeable and provided excellent tips and feedback. I enjoyed learning about different perspectives and compositions, which helped me create more dynamic drawings. The class activities were fun and engaging, making the learning process enjoyable. I’ve gained a lot of confidence in my artistic abilities thanks to this class.</p>
+                                            <p>GIFA College of Fine Arts offers a dynamic and innovative learning environment where students are encouraged to explore their creativity and push the boundaries of art. The faculty's expertise and dedication to teaching inspire students to pursue excellence in their craft. It's inspiring to see our students grow and evolve as artists, and I'm confident that they will make significant contributions to the art world.</p>
                                         </div>
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
@@ -194,7 +187,7 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>This class was a game-changer for me. The ART & CRAFT L-2 class at GIFA helped me refine my drawing skills and explore new coloring techniques. The instructor&apos;s guidance was invaluable, and the class structure allowed for both learning and creativity. I now have a portfolio of artwork that I&apos;m really proud of. I highly recommend this class to anyone looking to improve their drawing and coloring skills.</p>
+                                            <p>This class was a game-changer for me. The BFA class at GIFA helped me refine my drawing skills and explore new coloring techniques. The instructor&apos;s guidance was invaluable, and the class structure allowed for both learning and creativity. I now have a portfolio of artwork that I&apos;m really proud of. I highly recommend this class to anyone looking to improve their drawing and coloring skills.</p>
                                         </div>
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
@@ -209,7 +202,7 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>The ART & CRAFT L-2 class at GIFA was an amazing experience! The instructor was very knowledgeable and provided excellent guidance throughout the course. I started as a complete beginner, and by the end, I was able to create detailed and colorful drawings. The hands-on practice sessions were incredibly helpful, and I loved exploring different coloring techniques. Highly recommend!</p>
+                                            <p>The BFA class at GIFA was an amazing experience! The instructor was very knowledgeable and provided excellent guidance throughout the course. I started as a complete beginner, and by the end, I was able to create detailed and colorful drawings. The hands-on practice sessions were incredibly helpful, and I loved exploring different coloring techniques. Highly recommend!</p>
                                         </div>
                                     </div>
                                 </div>

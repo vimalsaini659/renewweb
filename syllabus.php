@@ -121,14 +121,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter other">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/other1.jpg" alt="Image"></a>
+                            <a href="ntt.php"><img src="assets/images/newimages/other1.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Others</a></p>
+                                <p><a href="ntt.php">Others</a></p>
                             </div>
-                            <a href="#">
+                            <a href="ntt.php">
                                 <h3>NTT</h3>
                             </a>
                             <div class="bottom-content">
@@ -140,7 +140,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="ntt.php ">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -149,14 +149,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter other">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/other2.jpg" alt="Image"></a>
+                            <a href="yoga.php"><img src="assets/images/newimages/other2.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
                                 <p><a href="#">Others</a></p>
                             </div>
-                            <a href="#">
+                            <a href="yoga.php">
                                 <h3>YOGA</h3>
                             </a>
                             <div class="bottom-content">
@@ -168,7 +168,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="yoga.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -177,14 +177,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter degree">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/degree-1.jpg" alt="Image"></a>
+                            <a href="computer.php"><img src="assets/images/newimages/degree-1.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Degree Programs</a></p>
+                                <p><a href="computer.php">Degree Programs</a></p>
                             </div>
-                            <a href="#">
+                            <a href="computer.php">
                                 <h3>COMPUTER</h3>
                             </a>
                             <div class="bottom-content">
@@ -196,7 +196,7 @@
                                                 Years</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="computer.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -205,14 +205,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter other">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/other3.jpg" alt="Image"></a>
+                            <a href="ntt.php"><img src="assets/images/newimages/other3.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Others</a></p>
+                                <p><a href="ntt.php">Others</a></p>
                             </div>
-                            <a href="#">
+                            <a href="ntt.php">
                                 <h3>NTT</h3>
                             </a>
                             <div class="bottom-content">
@@ -224,7 +224,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="ntt.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -233,14 +233,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter other">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/other4.jpg" alt="Image"></a>
+                            <a href="ptt.php"><img src="assets/images/newimages/other4.jpg" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Others</a></p>
+                                <p><a href="ptt.php">Others</a></p>
                             </div>
-                            <a href="#">
+                            <a href="ptt.php">
                                 <h3>PTT</h3>
                             </a>
                             <div class="bottom-content">
@@ -252,7 +252,7 @@
                                                 Year</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="ptt.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -321,14 +321,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter degree">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/degree-2.png" alt="Image"></a>
+                            <a href="baFineArt.php"><img src="assets/images/newimages/degree-2.png" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
                                 <p><a href="#">Degree Programs</a></p>
                             </div>
-                            <a href="#">
+                            <a href="baFineArt.php">
                                 <h3>B.A FINE ART</h3>
                             </a>
                             <div class="bottom-content">
@@ -341,7 +341,7 @@
                                                 Years</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="baFineArt.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -380,14 +380,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter degree">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/degree-3.png" alt="Image"></a>
+                            <a href="bfa.php"><img src="assets/images/newimages/degree-3.png" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Degree Programs</a></p>
+                                <p><a href="bfa.php">Degree Programs</a></p>
                             </div>
-                            <a href="#">
+                            <a href="bfa.php">
                                 <h3>BFA</h3>
                             </a>
                             <div class="bottom-content">
@@ -399,7 +399,7 @@
                                                 Years</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="bfa.php">View</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -409,14 +409,14 @@
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter degree">
                     <div class="single-courses-card style2">
                         <div class="courses-img">
-                            <a href="#"><img src="assets/images/newimages/degree-2.png" alt="Image"></a>
+                            <a href="mfa.php"><img src="assets/images/newimages/degree-2.png" alt="Image"></a>
                         </div>
                         <div class="courses-content">
                             <div class="admin-profile">
                                 <!-- <img src="assets/images/newimages/ent-4.jpg" alt="Image"> -->
-                                <p><a href="#">Degree Programs</a></p>
+                                <p><a href="mfa.php">Degree Programs</a></p>
                             </div>
-                            <a href="#">
+                            <a href="mfa.php">
                                 <h3>MFA</h3>
                             </a>
                             <div class="bottom-content">
@@ -428,7 +428,7 @@
                                                 Years</li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">View</a></li>
+                                    <li><a href="mfa.php">View</a></li>
                                 </ul>
                             </div>
                         </div>

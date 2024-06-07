@@ -1,13 +1,13 @@
 <?php include 'header.php'; ?>
-<title>ART & CRAFT L-2</title>
+<title>MFA</title>
 
 <div class="page-banner-area bg-1">
     <div class="container">
         <div class="page-banner-content">
-            <h1>ART & CRAFT L-2</h1>
+            <h1>MFA</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>ART & CRAFT L-2</li>
+                <li>MFA</li>
             </ul>
         </div>
     </div>
@@ -20,19 +20,19 @@
             <div class="col-lg-8">
                 <div class="courses-details">
                     <div class="courses-card">
-                        <h2>Diploma Programs- ART & CRAFT L-2</h2>
+                        <h2>Degree Programs- MFA</h2>
                         <div class="img">
-                            <img src="assets/images/newimages/artcraft02.jpg" alt="Image">
+                            <img src="assets/images/newimages/bfa.webp" alt="Image">
                         </div>
                         <div class="list">
                             <ul>
                                 <li>
                                     <div class="teacher">
                                         <!-- <img src="assets/images/newimages/hobby3.jpg" alt="Image"> -->
-                                        <p>Diploma Programs: <a href="#">ART & CRAFT L-2</a></p>
+                                        <p>Degree Programs: <a href="mfa.php">MFA</a></p>
                                     </div>
                                 </li>
-                                <li><i class="flaticon-clock"></i><span>Diffrent Types </span>ART & CRAFT L-2</li>
+                                <li><i class="flaticon-clock"></i><span>Course </span>MFA</li>
                             </ul>
                         </div>
                     </div>
@@ -50,37 +50,30 @@
                                 <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
                                     <div class="overview">
                                         <div class="learn">
-                                            <h3>Welcome to the ART & CRAFT L-2 Diploma Programs!</h3>
-                                            <p>The ART & CRAFT 2-year diploma degree is a comprehensive program designed to develop skills in various forms of art and craft. This program typically includes courses in drawing, painting, sculpture, ceramics, textiles, and more.</p>
-                                            <p>Students gain hands-on experience and theoretical knowledge, preparing them for careers in the creative industry or for further studies in fine arts.</p>
+                                            <h3>Welcome to the MFA Degree Programs!</h3>
+                                            <p>The Master of Fine Arts (M.F.A.) program at GIFA College of Fine Arts, Kurukshetra, is a two-year graduate program designed to provide advanced training and specialization in the visual arts. </p>
+                                            <p>The program offers a combination of studio practice, theoretical studies, and professional development to prepare students for leadership roles in the art world.</p>
                                         </div>
-                                        <h3>Join GIFA&apos;s ART & CRAFT L-2
+                                        <h3>Join GIFA&apos;s MFA
 
                                             Class Today!</h3>
                                         <h5>What You'll Learn:</h5>
                                         <div class="overview-box">
-                                            <h4>Fundamental Drawing Principles</h4>
-                                            <p>Understand the basics of lines, shapes, forms, and the essential tools and materials needed for drawing.</p>
+                                            <h4>Advanced Studio Facilities</h4>
+                                            <p>Access to state-of-the-art studios and equipment tailored to each student's medium of choice, providing an ideal environment for creative exploration and experimentation.</p>
                                         </div>
-                                         
-                                        
- Learn from professionals and artists with extensive experience in the field.
-
- 
-
-
 
                                         <div class="overview-box">
-                                            <h4>  Hands-on Training:</h4>
-                                            <p> Learn from professionals and artists with extensive experience in the field.</p>
+                                            <h4>Expert Faculty Mentors:</h4>
+                                            <p> Learn from distinguished faculty members who are practicing artists, scholars, and industry professionals, offering invaluable guidance and mentorship throughout the program.</p>
                                         </div>
                                         <div class="overview-box">
-                                            <h4>Experienced Faculty:</h4>
-                                            <p>Learn to create realistic scenes by grasping the concepts of perspective and proportion. </p>
+                                            <h4>Interdisciplinary Opportunities: </h4>
+                                            <p>GIFA College encourages interdisciplinary collaboration, allowing students to explore new mediums, techniques, and perspectives to enrich their artistic practice. </p>
                                         </div>
                                         <div class="overview-box">
-                                            <h4>Creative Development:</h4>
-                                            <p>  Focus on nurturing creativity and personal artistic style.</p>
+                                            <h4>Professional Development:</h4>
+                                            <p> The M.F.A. program at GIFA College includes comprehensive professional development components, ensuring that graduates are well-equipped for success in the art world, whether as practicing artists, educators, curators, or arts administrators.</p>
                                         </div>
                                         <div class="overview-box">
                                             <h4>Exhibitions:</h4>
@@ -168,7 +161,7 @@
                                     <div class="reviews">
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
-                                            <h2>Shivika</h2>
+                                            <h2>Mansha</h2>
                                             <div class="date">
                                                 <p>Student</p>
                                             </div>
@@ -179,11 +172,11 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>The ART & CRAFT L-2 class at GIFA exceeded my expectations. The instructor was very knowledgeable and provided excellent tips and feedback. I enjoyed learning about different perspectives and compositions, which helped me create more dynamic drawings. The class activities were fun and engaging, making the learning process enjoyable. I’ve gained a lot of confidence in my artistic abilities thanks to this class.</p>
+                                            <p>The M.F.A. program at GIFA College provided me with the perfect balance of artistic freedom and academic rigor. The faculty's expertise and support empowered me to push the boundaries of my practice and develop a cohesive body of work for my thesis. The professional development workshops and networking opportunities were instrumental in launching my career as a gallery artist.</p>
                                         </div>
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
-                                            <h2>Sunita Rani</h2>
+                                            <h2>Seema</h2>
                                             <div class="date">
                                                 <p>Student</p>
                                             </div>
@@ -194,11 +187,11 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>This class was a game-changer for me. The ART & CRAFT L-2 class at GIFA helped me refine my drawing skills and explore new coloring techniques. The instructor&apos;s guidance was invaluable, and the class structure allowed for both learning and creativity. I now have a portfolio of artwork that I&apos;m really proud of. I highly recommend this class to anyone looking to improve their drawing and coloring skills.</p>
+                                            <p>I chose GIFA College for my M.F.A. because of its reputation for excellence in both studio practice and academic research. The program exceeded my expectations, challenging me to explore new ideas and approaches while honing my technical skills. The interdisciplinary nature of the curriculum allowed me to incorporate diverse influences into my work, leading to a richer and more dynamic artistic practice.</p>
                                         </div>
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
-                                            <h2>Divansh</h2>
+                                            <h2>Gagan</h2>
                                             <div class="date">
                                                 <p>Student</p>
                                             </div>
@@ -209,7 +202,7 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>The ART & CRAFT L-2 class at GIFA was an amazing experience! The instructor was very knowledgeable and provided excellent guidance throughout the course. I started as a complete beginner, and by the end, I was able to create detailed and colorful drawings. The hands-on practice sessions were incredibly helpful, and I loved exploring different coloring techniques. Highly recommend!</p>
+                                            <p>Teaching in the M.F.A. program at GIFA College is a truly rewarding experience. I am continually impressed by the talent and dedication of our students and the innovative approaches they bring to their work. Our commitment to fostering a supportive and collaborative learning environment ensures that each student receives the personalized attention and guidance they need to realize their artistic vision</p>
                                         </div>
                                     </div>
                                 </div>

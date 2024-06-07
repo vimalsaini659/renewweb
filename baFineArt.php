@@ -1,13 +1,13 @@
 <?php include 'header.php'; ?>
-<title>ART & CRAFT L-2</title>
+<title>B.A FINE ART</title>
 
 <div class="page-banner-area bg-1">
     <div class="container">
         <div class="page-banner-content">
-            <h1>ART & CRAFT L-2</h1>
+            <h1>B.A FINE ART</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>ART & CRAFT L-2</li>
+                <li>B.A FINE ART</li>
             </ul>
         </div>
     </div>
@@ -20,19 +20,19 @@
             <div class="col-lg-8">
                 <div class="courses-details">
                     <div class="courses-card">
-                        <h2>Diploma Programs- ART & CRAFT L-2</h2>
+                        <h2>Degree Programs- B.A FINE ART</h2>
                         <div class="img">
-                            <img src="assets/images/newimages/artcraft02.jpg" alt="Image">
+                            <img src="assets/images/newimages/bafineart.webp" alt="Image">
                         </div>
                         <div class="list">
                             <ul>
                                 <li>
                                     <div class="teacher">
                                         <!-- <img src="assets/images/newimages/hobby3.jpg" alt="Image"> -->
-                                        <p>Diploma Programs: <a href="#">ART & CRAFT L-2</a></p>
+                                        <p>Degree Programs: <a href="#">B.A FINE ART</a></p>
                                     </div>
                                 </li>
-                                <li><i class="flaticon-clock"></i><span>Diffrent Types </span>ART & CRAFT L-2</li>
+                                <li><i class="flaticon-clock"></i><span>Course </span>B.A FINE ART</li>
                             </ul>
                         </div>
                     </div>
@@ -50,17 +50,19 @@
                                 <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab">
                                     <div class="overview">
                                         <div class="learn">
-                                            <h3>Welcome to the ART & CRAFT L-2 Diploma Programs!</h3>
-                                            <p>The ART & CRAFT 2-year diploma degree is a comprehensive program designed to develop skills in various forms of art and craft. This program typically includes courses in drawing, painting, sculpture, ceramics, textiles, and more.</p>
-                                            <p>Students gain hands-on experience and theoretical knowledge, preparing them for careers in the creative industry or for further studies in fine arts.</p>
+                                            <h3>Welcome to the B.A FINE ART Degree Programs!</h3>
+                                            <p>The B.A. in Fine Arts program at GIFA College of Fine Arts, Kurukshetra, is designed to offer students a robust education in both practical art skills and theoretical knowledge. Here&apos;s an overview of what you&apos;ll learn throughout the three-year program:</p>
+                                            <p>The Bachelor of Arts (B.A.) in Fine Arts is a comprehensive undergraduate program designed to develop students' artistic skills and theoretical understanding of art.</p>
+                                            <p>The program spans over three years, offering a blend of practical studio courses and academic studies in art history and theory. This degree prepares students for various careers in the creative arts industry, as well as for further studies and specialization in fine arts.</p>
                                         </div>
-                                        <h3>Join GIFA&apos;s ART & CRAFT L-2
+                                        <h3>Join GIFA&apos;s B.A FINE ART
 
                                             Class Today!</h3>
                                         <h5>What You'll Learn:</h5>
                                         <div class="overview-box">
-                                            <h4>Fundamental Drawing Principles</h4>
-                                            <p>Understand the basics of lines, shapes, forms, and the essential tools and materials needed for drawing.</p>
+                                            <h4>Drawing and Sketching</h4>
+                                            <p>Fundamental techniques of line drawing, shading, and perspective.
+Development of observational skills and precision.</p>
                                         </div>
                                          
                                         
@@ -71,16 +73,19 @@
 
 
                                         <div class="overview-box">
-                                            <h4>  Hands-on Training:</h4>
-                                            <p> Learn from professionals and artists with extensive experience in the field.</p>
+                                            <h4> Painting</h4>
+                                            <p> Introduction to various painting mediums including watercolor, acrylic, and oil.
+Understanding of color theory, mixing, and application techniques.</p>
                                         </div>
                                         <div class="overview-box">
-                                            <h4>Experienced Faculty:</h4>
-                                            <p>Learn to create realistic scenes by grasping the concepts of perspective and proportion. </p>
+                                            <h4>Sculpture</h4>
+                                            <p>Basics of three-dimensional form creation using clay, plaster, and other materials.
+Introduction to sculpting tools and safety practices. </p>
                                         </div>
                                         <div class="overview-box">
-                                            <h4>Creative Development:</h4>
-                                            <p>  Focus on nurturing creativity and personal artistic style.</p>
+                                            <h4>Art History</h4>
+                                            <p> Overview of major art movements from Prehistoric times to the Medieval period.
+Study of significant artists and their contributions.</p>
                                         </div>
                                         <div class="overview-box">
                                             <h4>Exhibitions:</h4>
@@ -109,10 +114,12 @@
                                         <h4>Weekly Breakdown:</h4>
                                         <div class="curriculum-list">    
                                             <ul>
-                                                <li>Basics <span>Semester 1</span></li>
+                                                <li>Foundation Year <span>Semester 1</span></li>
                                                 <li>Advanced <span>Semester 2</span></li>
                                                 <li>Specialization Year <span>Semester 3</span></li>
                                                 <li>Professional Practices<span>Semester 4</span></li>
+                                                <li>Specialization Year <span>Semester 5</span></li>
+                                                <li>Professional Practices<span>Semester 6</span></li>
                                              
                                             </ul>
                                         </div>
@@ -131,9 +138,9 @@
                                                     <div class="instructor-content">
                                                         <div class="name">
                                                             <h3>Join  </h3>
-                                                            <p>President IAS (Society)</p>
+                                                            <p>GIFA Art College</p>
                                                         </div>
-                                                        <p class="mb-30">The college is known for its dedicated faculty, excellent facilities, and a vibrant creative community. Located in the historical city of Kurukshetra, the college provides a conducive environment for artistic growth and exploration.</p>
+                                                        <p class="mb-30">The GIFA art college is known for its dedicated faculty, excellent facilities, and a vibrant creative community. Located in the historical city of Kurukshetra, the college provides a conducive environment for artistic growth and exploration.</p>
                                                         <div class="quick-contact">
                                                             <h4>Quick Contact</h4>
                                                             <ul>
@@ -168,7 +175,7 @@
                                     <div class="reviews">
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
-                                            <h2>Shivika</h2>
+                                            <h2>Anya</h2>
                                             <div class="date">
                                                 <p>Student</p>
                                             </div>
@@ -179,11 +186,11 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>The ART & CRAFT L-2 class at GIFA exceeded my expectations. The instructor was very knowledgeable and provided excellent tips and feedback. I enjoyed learning about different perspectives and compositions, which helped me create more dynamic drawings. The class activities were fun and engaging, making the learning process enjoyable. I’ve gained a lot of confidence in my artistic abilities thanks to this class.</p>
+                                            <p>Choosing GIFA College of Fine Arts for my B.A. in Fine Arts was one of the best decisions I've ever made. The diverse curriculum allowed me to explore different mediums and techniques, and the faculty were incredibly supportive and knowledgeable. The hands-on experience I gained through internships and exhibitions prepared me well for a professional career in the arts. I'm now working as a freelance artist and have my work featured in several galleries</p>
                                         </div>
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
-                                            <h2>Sunita Rani</h2>
+                                            <h2>Gurpreet</h2>
                                             <div class="date">
                                                 <p>Student</p>
                                             </div>
@@ -194,11 +201,11 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>This class was a game-changer for me. The ART & CRAFT L-2 class at GIFA helped me refine my drawing skills and explore new coloring techniques. The instructor&apos;s guidance was invaluable, and the class structure allowed for both learning and creativity. I now have a portfolio of artwork that I&apos;m really proud of. I highly recommend this class to anyone looking to improve their drawing and coloring skills.</p>
+                                            <p>The professional development courses and portfolio preparation at GIFA College were crucial in helping me establish myself as an artist. The faculty guided us through the process of creating a professional portfolio and navigating the art market. The exposure and networking opportunities provided by the college have been instrumental in my career as an art educator and curator. I highly recommend GIFA College to anyone serious about a career in fine arts.</p>
                                         </div>
                                         <div class="single-reviews-card">
                                             <img src="assets/images/newimages/testimonials.png" alt="Images">
-                                            <h2>Divansh</h2>
+                                            <h2>Navneet</h2>
                                             <div class="date">
                                                 <p>Student</p>
                                             </div>
@@ -209,7 +216,7 @@
                                                 <i class="ri-star-fill"></i>
                                                 <i class="ri-star-fill"></i>
                                             </div>
-                                            <p>The ART & CRAFT L-2 class at GIFA was an amazing experience! The instructor was very knowledgeable and provided excellent guidance throughout the course. I started as a complete beginner, and by the end, I was able to create detailed and colorful drawings. The hands-on practice sessions were incredibly helpful, and I loved exploring different coloring techniques. Highly recommend!</p>
+                                            <p>At GIFA College, we strive to integrate traditional art techniques with modern digital tools, preparing students for the evolving art landscape. The college's commitment to providing state-of-the-art facilities and continuous professional development is commendable. It's fulfilling to see our students grow and succeed in various fields, from fine arts to digital design. The collaborative and innovative environment here truly brings out the best in both students and faculty</p>
                                         </div>
                                     </div>
                                 </div>
