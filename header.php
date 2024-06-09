@@ -78,8 +78,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="middle-left">
+                    <div class="middle-left"><a href="index.php">
                         <img src="assets/images/newimages/gifa-art-college-logo-1.png" alt>
+</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -97,7 +98,7 @@
             <div class="container">
                 <div class="mobile-responsive-menu">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="assets/images/logo.png" class="main-logo" lt="logo">
                             <img src="assets/images/white-logo.png" class="white-logo" alt="logo">
                         </a>
@@ -108,7 +109,7 @@
         <div class="desktop-nav">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <!-- <a class="navbar-brand" href="index.html">
+                    <!-- <a class="navbar-brand" href="index.php">
                         <img src="assets/images/logo.png" class="main-logo" alt="logo">
                         <img src="assets/images/white-logo.png" class="white-logo" alt="logo">
                     </a> -->
@@ -292,7 +293,7 @@
                                         <a href="syllabus.php" class="nav-link">Syllabus</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Online
+                                        <a href="https://gifaartcollege.in/gifapanel/student/" class="nav-link">Online
                                             Exam</a>
                                     </li>
                                     <li class="nav-item">
@@ -422,7 +423,7 @@
             <div class="modal-content">
                 <button type="button" class="close" data-bs-dismiss="modal"><i class="ri-close-line"></i></button>
                 <div class="modal-body">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="assets/images/logo.png" class="main-logo" alt="logo">
                         <img src="assets/images/white-logo.png" class="white-logo" alt="logo">
                     </a>
@@ -436,7 +437,7 @@
                             study, so you do not need to spend time or be
                             knowledgeable in your child’s schoolwork.</p>
                         <div class="sidebar-btn">
-                            <a href="contact.html" class="default-btn">Let’s
+                            <a href="contact.php" class="default-btn">Let’s
                                 Talk</a>
                         </div>
                     </div>

@@ -5,7 +5,7 @@
 <div class="page-banner-area bg-1">
     <div class="container">
         <div class="page-banner-content">
-            <h1>Syllabus</h1>
+            <h1>Entrance Exam-Ignite Your Ambition</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li>Ignite Your Ambition</li>
