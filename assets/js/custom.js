@@ -44,13 +44,54 @@ $(document).ready(function () {
             var oldValue = parseFloat(input.val()); if (oldValue <= min) { var newVal = oldValue; } else { var newVal = oldValue - 1; }
             spinner.find("input").val(newVal); spinner.find("input").trigger("change");
         });
-    }); function makeTimer() {
-        var endTime = new Date("September 20, 2025 17:00:00 PDT"); var endTime = (Date.parse(endTime)) / 1000; var now = new Date(); var now = (Date.parse(now) / 1000); var timeLeft = endTime - now; var days = Math.floor(timeLeft / 86400); var hours = Math.floor((timeLeft - (days * 86400)) / 3600); var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60); var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60))); if (hours < "10") { hours = "0" + hours; }
-        if (minutes < "10") { minutes = "0" + minutes; }
-        if (seconds < "10") { seconds = "0" + seconds; }
-        $("#days").html(days + "<span>Days</span>"); $("#hours").html(hours + "<span>Hours</span>"); $("#minutes").html(minutes + "<span>Minutes</span>"); $("#seconds").html(seconds + "<span>Seconds</span>");
-    }
-    setInterval(function () { makeTimer(); }, 0);
+    }); 
+    // function makeTimer() {
+    //     var endTime = new Date("June 10, 2024 17:00:00");
+    //      var endTime = (Date.parse(endTime)) / 1000; var now = new Date(); var now = (Date.parse(now) / 1000); var timeLeft = endTime - now; var days = Math.floor(timeLeft / 86400); var hours = Math.floor((timeLeft - (days * 86400)) / 3600); var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60); var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60))); if (hours < "10") { hours = "0" + hours; }
+    //     if (minutes < "10") { minutes = "0" + minutes; }
+    //     if (seconds < "10") { seconds = "0" + seconds; }
+    //     $("#days").html(days + "<span>Days</span>"); $("#hours").html(hours + "<span>Hours</span>"); $("#minutes").html(minutes + "<span>Minutes</span>"); $("#seconds").html(seconds + "<span>Seconds</span>");
+    // }
+
+    // new code 
+    
+    let comingDate = new Date('June 10, 2024 22:02:00')
+
+let d = document.getElementById('days')
+let h = document.getElementById('hours')
+let m = document.getElementById('minutes')
+let s = document.getElementById('seconds')
+
+let x = setInterval(function() {
+  let now = new Date()
+  let selisih = comingDate.getTime() - now.getTime()
+
+  let days    = Math.floor(selisih / (1000 * 60 * 60 * 24))
+  let hours   = Math.floor(selisih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+  let minutes = Math.floor(selisih % (1000 * 60 * 60) / (1000 * 60))
+  let seconds = Math.floor(selisih % (1000 * 60) / 1000)
+
+  d.innerHTML = getTrueNumber(days)
+  h.innerHTML = getTrueNumber(hours)
+  m.innerHTML = getTrueNumber(minutes)
+  s.innerHTML = getTrueNumber(seconds)
+
+  if (selisih < 0) {
+    clearInterval(x)
+    d.innerHTML = '00'
+    h.innerHTML = '00'
+    m.innerHTML = '00'
+    s.innerHTML = '00'
+  }
+}, 1000)
+
+function getTrueNumber(x) {
+  if (x < 10) return '0' + x
+  else return x
+}
+    // end code
+
+    // setInterval(function () { makeTimer(); }, 0);
    $(window).on('scroll', function () { var scrolled = $(window).scrollTop(); if (scrolled > 300) $('.go-top').addClass('active'); if (scrolled < 300) $('.go-top').removeClass('active'); }); $('.go-top').on('click', function () { $("html, body").animate({ scrollTop: "0" }, 500); }); try { document.getElementById("year").innerHTML = new Date().getFullYear(); } catch (err) { }
     $('body'); $('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
 })(jQuery);

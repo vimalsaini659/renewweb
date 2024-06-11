@@ -297,7 +297,7 @@
                                             Exam</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Competition</a>
+                                        <a href="comingSoon.php" class="nav-link">Competition</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">Result
