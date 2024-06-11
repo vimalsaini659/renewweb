@@ -1,152 +1,180 @@
 <?php include 'header.php'; ?>
 <title>Competition</title>
+<style>
+.prize-list ul li {
+    list-style: none;
+}
 
+.prize-list ul li i {
+    padding-right: 10px;
+    color: #e32845;
+}
+</style>
 
-    <div class="page-banner-area bg-2">
-        <div class="container">
-            <div class="page-banner-content">
-                <h1>Competition</h1>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li>Online Art Competition</li>
-                </ul>
-            </div>
+<div class="page-banner-area bg-2">
+    <div class="container">
+        <div class="page-banner-content">
+            <h1>Competition</h1>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li>Online Art Competition</li>
+            </ul>
         </div>
     </div>
+</div>
 
 
-    <div class="contact-us-area pt-100 pb-70">
-        <div class="container">
-            <div class="row">
+<div class="contact-us-area pt-100 ">
+    <div class="container">
+        <div class="row">
             <div class="col-lg-6">
-                    <div class="contact-and-address">
-                        <h2>Rules And Regulation</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tem incididunt ut
-                            labore et dolore magna aliquat enim minim veniam quis nostr exercitation labore et dolore
-                            magna aliquat </p>
-                        <div class="contact-and-address-content">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="contact-card">
-                                        <div class="icon">
-                                            <i class="ri-phone-line"></i>
-                                        </div>
-                                        <h4>Contact</h4>
-                                        <p>Mobile: <a href="tel:+8819906886">(+88)-1990-6886</a></p>
-                                        <p>Mail: <a
-                                                href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#ea8985849e8b899eaa8f8e9f878b8686c4898587"><span
-                                                    class="__cf_email__"
-                                                    data-cfemail="a6d5c7c8d3e6c3c2d3cbc7cfca88c5c9cb">[email&#160;protected]</span></a>
-                                        </p>
+                <div class="contact-and-address">
+                    <h2>Canvas Painting Workshop</h2>
+                    <h2><b>Date: June 25, 2024</b></h2>
+                    <p>Join us for an immersive Canvas Painting Workshop at Gifa Art College! This workshop is designed
+                        for both beginners and experienced artists looking to refine their skills and explore new
+                        techniques. Led by the renowned artist Sarah Thompson, this is an opportunity to learn from the
+                        best and enhance your artistic journey. </p>
+                    <h2>Organized by Gifa Art College</h2>
+
+                    <div class="contact-and-address-content">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-10">
+                                <div class="contact-card">
+                                    <div class="icon">
+                                        <i class="ri-notification-2-line"></i>
                                     </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="contact-card">
-                                        <div class="icon">
-                                            <i class="ri-map-pin-line"></i>
-                                        </div>
-                                        <h4>Address</h4>
-                                        <p>1800 Abbot Kinney Blvd.</p>
-                                        <p>Unit D & E Venice</p>
-                                    </div>
+                                    <h4>Workshop Details:</h4>
+                                    <p>Instructor: Mr. Gagandeep, Artist</p>
+                                    <p>Date: June 25, 2024</p>
+                                    <p>Time:10:00 AM - 4:00 PM </p>
+                                    <p>Location:Gifa Art College, Main Hall</p>
+                                    <p>FEES 1999/- ONLY WITH ALL MATERIAL INCLUDE</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="social-media">
-                            <h3>Social Media</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tem incididunt ut
-                                labore et dolore magna aliquat enim</p>
-                            <ul>
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank"><i
-                                            class="flaticon-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.twitter.com/" target="_blank"><i
-                                            class="flaticon-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://instagram.com/?lang=en" target="_blank"><i
-                                            class="flaticon-instagram"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://linkedin.com/?lang=en" target="_blank"><i
-                                            class="flaticon-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="social-media">
+                        <h3>Join us for a day of creativity and learning at Gifa Art College!</h3>
+                        <p>To complete your registration, please follow the link below to fill out the registration form
+                            and submit your payment. If you have any questions or need further assistance, feel free to
+                            reach out to us on WhatsApp or through the contact information provided below.</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/gifacollege/" target="_blank"><i
+                                        class="flaticon-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/gifa_arts_college/" target="_blank"><i
+                                        class="flaticon-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=919992588777&text=Thank%20You%20for%20Contacting%20Us!"
+                                    target="_blank"><i class="ri-whatsapp-fill"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="contacts-form">
-                        <h3>Registration Form</h3>
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <label>Your name</label>
-                                        <input type="text" name="name" id="name" class="form-control" required
-                                            data-error="Please enter your name">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <label>Your email</label>
-                                        <input type="email" name="email" id="email" class="form-control" required
-                                            data-error="Please enter your email">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <label>Your phone</label>
-                                        <input type="text" name="phone_number" id="phone_number" required
-                                            data-error="Please enter your number" class="form-control">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <label>Subject</label>
-                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control"
-                                            required data-error="Please enter your subject">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label>Your message</label>
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="8"
-                                            required data-error="Write your message"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contacts-form">
+                    <h3>Registration Form</h3>
+                    <form id="contactForm" method="post" autocomplete="off">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <div class="form-check">
-                                        <input name="gridCheck" value="I agree to the terms and privacy policy."
-                                            class="form-check-input" type="checkbox" id="gridCheck" required>
-                                        <label class="form-check-label" for="gridCheck">
-                                            I agree to the <a href="terms-conditions.php">terms</a> and <a
-                                                href="privacy-policy.php">privacy policy</a>
-                                        </label>
-                                        <div class="help-block with-errors gridCheck-error"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12">
-                                    <button type="submit" class="default-btn">
-                                        <span>Send message</span>
-                                    </button>
-                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
+                                    <label>Your name</label>
+                                    <input type="text" name="name" id="name" class="form-control" required
+                                        data-error="Please enter your name" pattern="^[a-zA-Z\s]+$"
+                                        title="Name can only contain letters and spaces">
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                        </form>
-                    </div>
-                </div>                
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Your email</label>
+                                    <input type="email" name="email" id="email" class="form-control" required
+                                        data-error="Please enter a valid email">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Your phone</label>
+                                    <input type="tel" name="phone_number" id="phone_number" required
+                                        data-error="Please enter your number" class="form-control" pattern="\d{10}"
+                                        title="Please enter a valid 10-digit phone number">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
+                                        data-error="Please enter your subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Your message</label>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="8"
+                                        required data-error="Write your message"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <input type="submit" name="submit" value="Submit" class="default-btn">
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+</div>
+
+<div class="prize-section pb-70">
+    <div class="container">
+        <h2>Additional Information:</h2>
+        <p><b>Judging Criteria: </b>Artworks will be judged based on originality, technique, composition, and overall
+            impact.</p>
+        <p><b>Announcement of Winners: </b>Winners will be announced at the end of the workshop during the feedback and
+            Q&A session.</p>
+        <p><b>Eligibility:</b> All registered participants of the workshop are eligible to compete for these prizes.</p>
+        <div class="prize-list">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <h3>Pay the Registration fees</h3>
+                    <ul>
+                        <li><i class="ri-checkbox-circle-line"></i>Single Art Work ₹500</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Two Art Work ₹700</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Three Art Work ₹900</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Four Art Work ₹1000</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3>International Participants</h3>
+                    <ul>
+                        <li><i class="ri-checkbox-circle-line"></i>Single Art Work $15</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Two Art Work $20</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Three Art Work $25</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Three Art Work $30</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3>Lifetime Member</h3>
+                    <ul>
+                        <li><i class="ri-checkbox-circle-line"></i>Single Art Work ₹300</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Two Art Work ₹500</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Three Art Work ₹700</li>
+                        <li><i class="ri-checkbox-circle-line"></i>Four Art Work ₹800</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-  <?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
