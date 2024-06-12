@@ -127,7 +127,7 @@ if (empty($nameErr) && empty($emailErr) && empty($phoneErr) && empty($msgErr)) {
     include("template/side_user.php");
     $usertemp .= ob_get_clean();
     $mail->AddAddress($side_cemail);
-    $mail->Subject ="New Shoolin request  Id Shoolin-$number";
+    $mail->Subject ="New GIFA ART COLLEGE  Id GIFA2024-$number";
     $mail->Body = $usertemp;
     echo '<script>
          swal({

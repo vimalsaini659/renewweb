@@ -57,7 +57,7 @@ echo '<table cellpadding="0" style="width:100%;">
               </td>
            </tr>
            <tr>
-              <td align="center" bgcolor="#23588e" height="50"><font face="Segoe UI,Trebuchet MS,Arial, Helvetica, sans-serif" color="#fff" style="font-size:.8125rem"> Copyright by <b>Shoolin Logistics request</b> All rights reserved. </font></td>
+              <td align="center" bgcolor="#23588e" height="50"><font face="Segoe UI,Trebuchet MS,Arial, Helvetica, sans-serif" color="#fff" style="font-size:.8125rem"> Copyright by <b>GIFA ART COLLEGE</b> All rights reserved. </font></td>
            </tr>
         </tbody>
      </table>';
