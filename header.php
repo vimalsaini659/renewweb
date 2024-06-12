@@ -28,10 +28,9 @@
 
     <link rel="stylesheet" href="assets/css/dark.css">
 
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    
+    <link rel="stylesheet" href="assets/css/responsive.css">    
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 </head>
 
 <body>

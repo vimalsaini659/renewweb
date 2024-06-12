@@ -9,6 +9,9 @@
     padding-right: 10px;
     color: #e32845;
 }
+span.error {
+    display: none;
+}
 </style>
 
 <div class="page-banner-area bg-2">
@@ -79,52 +82,48 @@
             <div class="col-lg-6">
                 <div class="contacts-form">
                     <h3>Registration Form</h3>
-                    <form id="contactForm" method="post" autocomplete="off">
+                    <form action="" method="post" autocomplete="off">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <label>Your name</label>
-                                    <input type="text" name="name" id="name" class="form-control" required
-                                        data-error="Please enter your name" pattern="^[a-zA-Z\s]+$"
-                                        title="Name can only contain letters and spaces">
-                                    <div class="help-block with-errors"></div>
+                                    <label>Your name<span class="error">* <?php echo $nameErr; ?></span> </label>                                   
+                                    <input type="text" name="c_name" class="form-control" required
+                                       pattern="^[a-zA-Z\s]+$"
+                                        title="Name can only contain letters and spaces">                                   
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <label>Your email</label>
-                                    <input type="email" name="email" id="email" class="form-control" required
-                                        data-error="Please enter a valid email">
-                                    <div class="help-block with-errors"></div>
+                                    <label>Your email <span class="error">* <?php echo $emailErr; ?></span></label>
+                                    <input type="email" name="c_email"  class="form-control" required
+                                        >                                    
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <label>Your phone</label>
-                                    <input type="tel" name="phone_number" id="phone_number" required
-                                        data-error="Please enter your number" class="form-control" pattern="\d{10}"
+                                    <label>Your phone <span class="error">* <?php echo $phoneErr; ?></span></label>
+                                    <input type="tel" name="contact_phone"  required
+                                         class="form-control" pattern="\d{10}"
                                         title="Please enter a valid 10-digit phone number">
-                                    <div class="help-block with-errors"></div>
+                                   
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
                                 <div class="form-group">
-                                    <label>Subject</label>
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required
-                                        data-error="Please enter your subject">
-                                    <div class="help-block with-errors"></div>
+                                    <label>Subject <span class="error">* <?php echo $subErr; ?></span></label>
+                                    <input type="text" name="contact_subject"  class="form-control" required
+                                       >                                    
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <label>Your message</label>
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="8"
-                                        required data-error="Write your message"></textarea>
-                                    <div class="help-block with-errors"></div>
+                                    <textarea name="comment" class="form-control"  cols="30" rows="6"
+                                        ></textarea>                                   
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12">
-                                <input type="submit" name="submit" value="Submit" class="default-btn">
+                                <input type="submit" name="c_submit" value="Submit" class="default-btn">
                             </div>
                         </div>
                     </form>
@@ -178,3 +177,4 @@
 
 
 <?php include 'footer.php'; ?>
+<?php include 'competition_form.php'; ?>
