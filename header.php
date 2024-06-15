@@ -299,7 +299,7 @@
                                         <a href="comingSoon.php" class="nav-link">Competition</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Result
+                                        <a href="resultVerify.php" class="nav-link">Result
                                             Verify</a>
                                     </li>
                                     <li class="nav-item">
