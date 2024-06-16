@@ -38,23 +38,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $result = mysqli_query($conn, $query);
     
         if ($row = mysqli_fetch_assoc($result)) {
-            // Found a matching record, extract reg_no
-            $reg_no = $row['reg_no'];
-            $courseid=$row['course_id'];    
-            // Redirect to index.php with reg_no as a query parameter          
-            header("Location: marksheet_generate.php?id=" . $reg_no . "&course_id=" . $courseid);
-            
+            // Found a matching record, extract the necessary fields
+            $sid = $row['sid'];
+            $courseid = $row['course_id'];
+            $centerid = $row['center_id']; // Assuming this field exists and holds the center ID
+        
+            // Redirect to marksheet_generate.php with necessary query parameters
+            header("Location: marksheet_generate.php?sid=" . $sid . "&course_id=" . $courseid . "&center_id=" . $centerid);
             exit(); // Ensure no further code is executed after redirection
         } else {
-            // No matching record found
-            $errors[] = "Result is Not Found";
-            foreach ($errors as $error) {
-                echo "<p class='idcaderror' style='color: red; text-align:center;'>$error</p>";
-            }
-        }
-    }
-    
-    mysqli_close($conn);
+// No matching record found
+$errors[] = "Result is Not Found";
+foreach ($errors as $error) {
+echo "<p class='idcaderror' style='color: red; text-align:center;'>$error</p>";
+}
+}
+}
+
+mysqli_close($conn);
 }
 ?>
 
@@ -97,38 +98,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
             </div>
             <div class="col-md-6">
-<div class="result-right-block">
-                <div class="excellence">
-                    <h4>Creative Excellence:</h4>
-                    <p>GIFA Art College has consistently nurtured creative excellence among its students. Our faculty
-                        members are accomplished artists who guide students to explore their artistic potential and
-                        develop their unique styles.</p>
-                </div>
-                <div class="excellence">
-                    <h4>Inspiring Guidance:</h4>
-                    <p>GIFA provides diploma and degree programs in fine arts, art and craft, and other creative
-                        disciplines. These programs cater to different levels of expertise and duration.</p>
-                </div>
-                <div class="excellence">
-                    <h4>Hobby Classes</h4>
-                    <p>GIFA offers short-term hobby classes in various art forms like paper craft, rangoli, drawing, and
-                        clay work.</p>
-                </div>
-                <div class="excellence">
-                    <h4>Face-to-Face and Online Sessions:</h4>
-                    <p>GIFA provides face-to-face tutoring sessions for homework help and online study programs to
-                        replicate the classroom experience.</p>
-                </div>
-                <h4>Contact Information</h4>
-                <p><b>Location </b> Regd. Office : SCO 59 Sector 17 Kurukshetra Haryana</p>
-                <p><b>Phone </b>91 9992588777</p>
-                <p><b>Phone </b>+91 9992588777</p>
-                <p><b>Email </b>gifaartcollege@gmail.com</p>
-                <!-- <div class="login">
+                <div class="result-right-block">
+                    <div class="excellence">
+                        <h4>Creative Excellence:</h4>
+                        <p>GIFA Art College has consistently nurtured creative excellence among its students. Our
+                            faculty
+                            members are accomplished artists who guide students to explore their artistic potential and
+                            develop their unique styles.</p>
+                    </div>
+                    <div class="excellence">
+                        <h4>Inspiring Guidance:</h4>
+                        <p>GIFA provides diploma and degree programs in fine arts, art and craft, and other creative
+                            disciplines. These programs cater to different levels of expertise and duration.</p>
+                    </div>
+                    <div class="excellence">
+                        <h4>Hobby Classes</h4>
+                        <p>GIFA offers short-term hobby classes in various art forms like paper craft, rangoli, drawing,
+                            and
+                            clay work.</p>
+                    </div>
+                    <div class="excellence">
+                        <h4>Face-to-Face and Online Sessions:</h4>
+                        <p>GIFA provides face-to-face tutoring sessions for homework help and online study programs to
+                            replicate the classroom experience.</p>
+                    </div>
+                    <h4>Contact Information</h4>
+                    <p><b>Location </b> Regd. Office : SCO 59 Sector 17 Kurukshetra Haryana</p>
+                    <p><b>Phone </b>91 9992588777</p>
+                    <p><b>Phone </b>+91 9992588777</p>
+                    <p><b>Email </b>gifaartcollege@gmail.com</p>
+                    <!-- <div class="login">
                     <img src="assets/images/newimages/admitcard.jpg" alt="">
                 </div> -->
+                </div>
             </div>
-                            </div>
         </div>
     </div>
 </div>
