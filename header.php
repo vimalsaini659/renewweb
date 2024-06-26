@@ -299,11 +299,11 @@
                                         <a href="comingSoon.php" class="nav-link">Competition</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="resultVerify.php" class="nav-link">Result
+                                        <a href="resultVerify.php"  target="_blank" class="nav-link">Result
                                             Verify</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">E-
+                                        <a href="e_book.php"  target="_blank" class="nav-link">E-
                                             Books</a>
                                     </li>
                                 </ul>

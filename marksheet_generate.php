@@ -51,6 +51,10 @@ section.marksheet ul li {
 .marksheet-left {
     float: right;
 }
+section.result-bottom {
+    padding: 26px;
+    /* text-align: center; */
+}
 </style>
 <div class="page-banner-area bg-2">
     <div class="container">
@@ -272,80 +276,16 @@ section.marksheet ul li {
 
   </div>
 </section>
+<section class="result-bottom">
 <div class="container">
-
-    <!-- <div class="student_marksheet">
-      <div class="container">
-        <table border="1" cellpadding="0" cellspacing="0" >
-            <thead>
-                <th>Subjects</th>
-                <th>Code</th>
-                <th>Max. Marks</th>
-                <th>Min. Marks</th>
-                <th>Theory</th>
-                <th>Assignment</th>
-                <th>Total</th>
-            </thead>
-            <tbody>
-                <?php
-          $grand = 0;
-          $total = 0;
-          $assignment = 0;
-          $theory = 0;
-
-          $sql9 = "SELECT student.*, course.*, subject.*, result.* 
-                   FROM ai_students as student 
-                   RIGHT JOIN result_students as result ON student.sid = result.student_id 
-                   INNER JOIN ai_courses as course ON student.course_id = course.cid 
-                   INNER JOIN ai_subjects as subject ON result.subject_id = subject.id 
-                   WHERE result.session_year = 1 AND result.student_id = $sid";
-          $query11 = $conn->query($sql9);
-          while ($row = $query11->fetch_assoc()) {
-            $grand = $row['assignment'] + $row['total_marks'];
-            $total += $grand;
-            $assignment += $row['assignment'];
-            $theory += $row['total_marks'];
-          ?>
-          
-                <tr>
-                    <td><b><?php echo $row['subject_name']; ?></b></td>
-                    <td><b><?php echo $row['subject_code']; ?></b></td>
-                    <td>100</td>
-                    <td>40</td>
-                    <td><?php echo $row['total_marks']; ?></td>
-                    <td><?php echo $row['assignment']; ?></td>
-                    <td><?php echo $grand; ?></td>
-                </tr>
-                <?php } ?>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="2"><b>Grand Total</b></td>
-                    <td>1000</td>
-                    <td>400</td>
-                    <td><?php echo $theory; ?></td>
-                    <td><?php echo $assignment; ?></td>
-                    <td><?php echo $total; ?></td>
-                </tr>
-                <tr>
-                    <td><b>Grand Total in words</b></td>
-
-                    <td colspan="6" style="text-align: left;"><?php echo strtoupper(convert_number_to_words($total)); ?>
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
-        </div>
-    </div> -->
-
-    <div class="result_student">
-        <h3><i>Result:</i>&nbsp;&nbsp;&nbsp;<b>PASSED IN FIRST DIVISION & OBTAINED:
-                <?php echo strtoupper(convert_number_to_words($total)); ?></b></h3>
-        <h3><i>The Minimum Marks for pass 33%</i></h3>
-        <h3><i>Second Division 50%</i></h3>
-        <h3><i>First Division 60%</i></h3>
+        <p>Result:</i>&nbsp;&nbsp;&nbsp;<b>PASSED IN FIRST DIVISION & OBTAINED:
+                <?php echo strtoupper(convert_number_to_words($total)); ?></b></p>
+        <p><i>The Minimum Marks for pass 33%</i></p>
+        <p><i>Second Division 50%</i></p>
+        <p><i>First Division 60%</i></p>
     </div>
-</div>
+</section>
+
 <script type="text/javascript">
 function printDiv(divName) {
     var printContents = document.getElementById(divName).innerHTML;
@@ -354,4 +294,5 @@ function printDiv(divName) {
     window.print();
     document.body.innerHTML = originalContents;
 }
+</script>
 <?php include 'footer.php'; ?>
