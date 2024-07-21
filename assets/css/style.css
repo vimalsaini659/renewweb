@@ -12,6 +12,20 @@ body {
     padding: 22px;
     background-color: #f1f1f1bd;
 }
+.page-banner-area.bg-id-card {
+    background-image: url(../images/page-banner/5.jpeg);
+}
+.page-banner-area.bg-admit-card {
+    background-image: url(../images/page-banner/admitcard.png);
+}
+.page-banner-area.bg-syyalubus {
+    background-image: url(../images/page-banner/syllabus.png);
+}
+
+.page-banner-area.bg-result-verify{
+    background-image: url(../images/page-banner/result.jpeg);
+}
+
 
 img {
     max-width: 100%
@@ -5753,3 +5767,5 @@ span.footter-icon {
     display: block;
     margin: 0 auto;
 }
+ /* new code */
+

@@ -60,7 +60,7 @@ mysqli_close($conn);
 ?>
 
 <title>Result Verify</title>
-<div class="page-banner-area bg-2">
+<div class="page-banner-area bg-result-verify">
     <div class="container">
         <div class="page-banner-content">
             <h1>Result Verify</h1>

@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <title>Admit Card</title>
-<div class="page-banner-area bg-2">
+<div class="page-banner-area bg-admit-card">
     <div class="container">
         <div class="page-banner-content">
             <h1>Admit Card</h1>

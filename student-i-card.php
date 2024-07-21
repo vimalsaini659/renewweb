@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <title>Student-i-card</title>
-<div class="page-banner-area bg-2">
+<div class="page-banner-area bg-id-card">
     <div class="container">
         <div class="page-banner-content">
             <h1>Student ID card</h1>

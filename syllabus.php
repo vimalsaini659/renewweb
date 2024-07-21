@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <title>Syllabus</title>
-<div class="page-banner-area bg-2">
+<div class="page-banner-area bg-syyalubus">
     <div class="container">
         <div class="page-banner-content">
             <h1>Syllabus</h1>

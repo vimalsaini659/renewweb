@@ -236,7 +236,7 @@
                                             Form</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Admission-Online</a>
+                                        <a href="addmission_online.php" class="nav-link">Admission-Online</a>
                                     </li>
                                 </ul>
                             </li>
