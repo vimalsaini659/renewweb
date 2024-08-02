@@ -23,23 +23,24 @@ include "includes/connection.php";
 
 <div class="login-area pt-100 pb-70">
     <div class="container">
-        <h2 class="text-center my-4">ADDMISSION ONLINE</h2>
+        
         <form>
+        <h2 class="text-center my-4">ADDMISSION ONLINE</h2>        
             <div class="row">
                 <!-- Personal Details -->
                 <div class="col-md-3">
                     <h4>Personal Details</h4>
                     <div class="mb-2">
                         <label for="applicantName" class="form-label">Applicant Full Name</label>
-                        <input type="text" class="form-control" name="applicant_name" id="applicantName" required>
+                        <input type="text" class="form-control" name="applicant_name" id="applicantName" pattern="^[a-zA-ZÀ-ÿ.'-]+$" required>
                     </div>
                     <div class="mb-2">
                         <label for="guardianName" class="form-label">Guardian Name</label>
-                        <input type="text" class="form-control" name="applicant_guardian" id="guardianName">
+                        <input type="text" class="form-control" name="applicant_guardian" id="guardianName" pattern="^[a-zA-ZÀ-ÿ.'-]+$" required>
                     </div>
                     <div class="mb-2">
                         <label for="applicantType" class="form-label">Kind of Applicant</label>
-                        <select class="form-select" id="applicantType" name="applicantType">
+                        <select class="form-select" id="applicantType" name="applicantType" required>
                             <option selected value="House Wife">House Wife</option>
                             <option value="Kid">Kid</option>
                             <option value="Student">Student</option>
@@ -50,23 +51,27 @@ include "includes/connection.php";
                     <div class="mb-2">
                         <label class="form-label">Date of Birth</label>
                         <div class="d-flex">
-                            <input type="number" name="dobyear" class="form-control me-1" placeholder="Year">
-                            <input type="number" name="dobmonth" class="form-control me-1" placeholder="Month">
-                            <input type="number" name="dobdate" class="form-control" placeholder="Date">
+                            <input type="number" name="dobyear" class="form-control me-1" placeholder="Year" required>
+                            <input type="number" name="dobmonth" class="form-control me-1" placeholder="Month" required>
+                            <input type="number" name="dobdate" class="form-control" placeholder="Date" required>
                         </div>
-                    </div>
+                    </div>  
                     <div class="mb-2">
                         <label for="age" class="form-label">Age</label>
                         <input type="number" class="form-control" name="age" id="age">
-                    </div>                 
+                    </div>                                
 
                     <div class="mb-2">
                         <label for="occupation" class="form-label">Occupation of Father/Husband</label>
-                        <input type="text" class="form-control" id="occupation" name="occupation">
+                        <input type="text" class="form-control" id="occupation" name="occupation" required>
                     </div>
                     <div class="mb-2">
                         <label for="nationality" class="form-label">Nationality</label>
-                        <input type="text" class="form-control" id="nationality" name="nationality">
+                        <input type="text" class="form-control" id="nationality" name="nationality" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="applicantPhoto" class="form-label"> Photo Upload</label>
+                        <input type="file" class="form-control" name="applicantPhoto" id="photoapplicant">
                     </div>
                 </div>
 
@@ -77,6 +82,11 @@ include "includes/connection.php";
                         <label for="mobile" class="form-label">Mobile No.</label>
                         <input type="text" class="form-control" id="mobile" name="mobile" required>
                     </div>
+                  
+                    <div class="mb-2">
+                        <label for="aaddhar" class="form-label">Aadhar Card</label>
+                        <input type="file" class="form-control" name="aaddhar" id="aadhar">
+                    </div>  
                     <!-- <div class="mb-4">
                         <label for="gender" class="form-label">Gender</label>
                         <select class="form-select" id="gender" name="gender">
@@ -86,15 +96,15 @@ include "includes/connection.php";
                     </div> -->
                     <div class="mb-2">
                         <label for="whatsapp" class="form-label">Whatsapp No.</label>
-                        <input type="text" class="form-control" id="whatsapp" name="whatsapp">
+                        <input type="text" class="form-control" id="whatsapp" name="whatsapp" required>
                     </div>
                     <div class="mb-2">
                         <label for="email" class="form-label">Email ID</label>
-                        <input type="email" class="form-control" id="email" name="email">
+                        <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="mb-2">
                         <label for="state" class="form-label">State</label>
-                        <select class="form-select" id="state" name="State">
+                        <select class="form-select" id="state" name="State" required>
                             <option selected>Select State</option>
                             <!-- Add options here -->
                         </select>
@@ -110,6 +120,10 @@ include "includes/connection.php";
                         <label for="address" class="form-label">Permanent Address</label>
                         <textarea class="form-control" id="address" rows="3" name="address"></textarea>
                     </div>
+                    <div class="mb-2">
+                        <label for="duration" class="form-label">Duration</label>
+                        <input type="text" class="form-control" id="duration" name="duration" required>
+                    </div>
                 </div>
 
                 <!-- Educational Details -->
@@ -118,6 +132,10 @@ include "includes/connection.php";
                     <div class="mb-2">
                         <label for="schoolCollege" class="form-label">School/College Name</label>
                         <input type="text" class="form-control" id="schoolCollege" name="schoolCollege" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="Program" class="form-label">Program</label>
+                        <input type="text" class="form-control" id="Program"  name="Program" >
                     </div>
                     <div class="mb-2">
                         <label for="qualification" class="form-label">Qualification</label>
@@ -159,6 +177,10 @@ include "includes/connection.php";
                             <option selected>Select Option</option>
                             <!-- Add options here -->
                         </select>
+                    </div> 
+                    <div class="mb-2">
+                        <label for="fees" class="form-label">Fees</label>
+                        <input type="text" class="form-control" id="fees"  name="fees" >
                     </div>
                     <div>
                         <p>Bank Details</p>

@@ -341,7 +341,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Job
+                                        <a href="jobapply.php" class="nav-link">Job
                                             Apply</a>
                                     </li>
                                     <li class="nav-item">
@@ -360,7 +360,7 @@
                                             Art</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Download</a>
+                                        <a href="download.php" class="nav-link">Download</a>
                                     </li>
                                 </ul>
                             </li>
@@ -390,7 +390,7 @@
                                             Login</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Download</a>
+                                        <a href="download.php" class="nav-link">Download</a>
                                     </li>
                                 </ul>
                             </li>
